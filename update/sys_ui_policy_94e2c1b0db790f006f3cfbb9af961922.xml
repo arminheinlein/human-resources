@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="x_conym_hr_prf">u_state=40^u_budget_available=false^EQ<item endquery="false" field="u_state" goto="false" newquery="false" operator="=" or="false" value="40"/>
+            <item endquery="false" field="u_budget_available" goto="false" newquery="false" operator="=" or="false" value="false"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>false</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+
+}]]></script_true>
+        <set_values/>
+        <short_description>PRF - Make Work Notes mandatory when Budget available false</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-10-11 14:52:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>94e2c1b0db790f006f3cfbb9af961922</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PRF - Make Work Notes mandatory when Budget available false</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Human Resources Department" source="x_conym_hr">28d216dedb40c740bc1cf2f9af9619f9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Human Resources Department">28d216dedb40c740bc1cf2f9af9619f9</sys_scope>
+        <sys_update_name>sys_ui_policy_94e2c1b0db790f006f3cfbb9af961922</sys_update_name>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-10-11 14:52:06</sys_updated_on>
+        <table>x_conym_hr_prf</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>

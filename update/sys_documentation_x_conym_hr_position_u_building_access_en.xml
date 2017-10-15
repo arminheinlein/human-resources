@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_building_access" label="Building access" language="en" table="x_conym_hr_position">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_building_access</element>
+            <help/>
+            <hint/>
+            <label>Building access</label>
+            <language>en</language>
+            <name>x_conym_hr_position</name>
+            <plural>Building access</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-02 14:42:39</sys_created_on>
+            <sys_id>029164d20f9403003ed88b9ae1050eeb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Building access</sys_name>
+            <sys_package display_value="Human Resources Department" source="x_conym_hr">28d216dedb40c740bc1cf2f9af9619f9</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Human Resources Department">28d216dedb40c740bc1cf2f9af9619f9</sys_scope>
+            <sys_update_name>sys_documentation_x_conym_hr_position_u_building_access_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-02 14:42:39</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

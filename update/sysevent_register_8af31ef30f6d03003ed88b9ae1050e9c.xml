@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysevent_register">
+    <sysevent_register action="INSERT_OR_UPDATE">
+        <description/>
+        <event_name>x_conym_hr.mail_to.hiring_mngr_paf</event_name>
+        <fired_by>Fired when a record in the PAF table is created</fired_by>
+        <queue/>
+        <suffix>mail_to.hiring_mngr_paf</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-10-08 18:12:14</sys_created_on>
+        <sys_id>8af31ef30f6d03003ed88b9ae1050e9c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_conym_hr.mail_to.hiring_mngr_paf</sys_name>
+        <sys_package display_value="Human Resources Department" source="x_conym_hr">28d216dedb40c740bc1cf2f9af9619f9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Human Resources Department">28d216dedb40c740bc1cf2f9af9619f9</sys_scope>
+        <sys_update_name>sysevent_register_8af31ef30f6d03003ed88b9ae1050e9c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-10-08 18:12:14</sys_updated_on>
+        <table>x_conym_hr_paf</table>
+    </sysevent_register>
+</record_update>

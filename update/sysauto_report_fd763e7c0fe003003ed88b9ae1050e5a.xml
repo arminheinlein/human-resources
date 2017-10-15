@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysauto_report">
+    <sysauto_report action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <address_list/>
+        <condition/>
+        <conditional>false</conditional>
+        <group_list name="Pre-VCB Board">59ada2cedb248300bc1cf2f9af9619e1</group_list>
+        <include_detail>false</include_detail>
+        <include_with/>
+        <name>Scheduled execution of PRF for Pre-VCB review</name>
+        <omit_if_no_records>true</omit_if_no_records>
+        <output_type>PDF-landscape</output_type>
+        <page_height_in_pixels>612</page_height_in_pixels>
+        <page_size>Letter</page_size>
+        <page_width_in_pixels>792</page_width_in_pixels>
+        <report display_value="PRF for Pre-VCB">72605af0db3d0f006f3cfbb9af961986</report>
+        <report_body><![CDATA[<p>Attached find a list of pending PRF for the Pre-VCB review this Thursday.</p>]]></report_body>
+        <report_title>PRF pending for Pre-VCB </report_title>
+        <run_as/>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>3</run_dayofweek>
+        <run_period/>
+        <run_start>2017-08-10 19:57:52</run_start>
+        <run_time>1970-01-01 21:30:00</run_time>
+        <run_type>weekly</run_type>
+        <sys_class_name>sysauto_report</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-10 19:59:20</sys_created_on>
+        <sys_id>fd763e7c0fe003003ed88b9ae1050e5a</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Scheduled execution of PRF for Pre-VCB review</sys_name>
+        <sys_package display_value="Human Resources Department" source="x_conym_hr">28d216dedb40c740bc1cf2f9af9619f9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Human Resources Department">28d216dedb40c740bc1cf2f9af9619f9</sys_scope>
+        <sys_update_name>sysauto_report_fd763e7c0fe003003ed88b9ae1050e5a</sys_update_name>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-10-11 20:31:42</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+        <user_list/>
+        <zip>false</zip>
+    </sysauto_report>
+</record_update>

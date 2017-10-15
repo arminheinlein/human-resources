@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_index">
+    <sys_index action="INSERT_OR_UPDATE">
+        <col_name_string>u_peoplesoft_reference</col_name_string>
+        <index_col_name element="u_peoplesoft_reference" name="x_conym_hr_position">8181e6e40f5003003ed88b9ae1050e85</index_col_name>
+        <logical_table_name>x_conym_hr_position</logical_table_name>
+        <sys_class_name>sys_index</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-01 19:44:57</sys_created_on>
+        <sys_id>243dd0060f5c03003ed88b9ae1050e14</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_conym_hr_position</sys_name>
+        <sys_package display_value="Human Resources Department" source="x_conym_hr">28d216dedb40c740bc1cf2f9af9619f9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Human Resources Department">28d216dedb40c740bc1cf2f9af9619f9</sys_scope>
+        <sys_update_name>sys_index_x_conym_hr_position_u_peoplesoft_reference</sys_update_name>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-08-14 17:08:35</sys_updated_on>
+        <table display_value="Position" name="x_conym_hr_position">dbc5fe160f4003003ed88b9ae1050e59</table>
+        <unique_index>false</unique_index>
+    </sys_index>
+</record_update>

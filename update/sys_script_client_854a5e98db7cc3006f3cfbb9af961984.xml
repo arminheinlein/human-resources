@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_copy_from_job_description</field>
+        <global>true</global>
+        <messages/>
+        <name>JD - Copy from job description</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	if (isLoading || newValue === '') {
+		return;
+	}
+	
+	var ga = new GlideAjax('getJobDetails'); // Name of script include
+	ga.addParam('sysparm_name','getJobDInfo');  //Function in the script include
+	ga.addParam('sysparm_id', g_form.getValue('u_copy_from_job_description'));   // Pass position
+	ga.getXML(updateJD);                 // The call to the response below.
+	
+	function updateJD(response) {
+		var answer = response.responseXML.documentElement.getAttribute("answer");  // Answers JSON XML.
+		var list = answer.split('|');  //get delimited values and assign them to the fields on the form
+		g_form.setValue('u_purpose_of_position', list[0]);
+		g_form.setValue('u_scope_of_role', list[1]);
+		g_form.setValue('u_required_education', list[2]);
+		g_form.setValue('u_licensure', list[3]);
+		g_form.setValue('u_competencies', list[4]);
+	}
+	
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-08-21 14:54:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>854a5e98db7cc3006f3cfbb9af961984</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>JD - Copy from job description</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Human Resources Department" source="x_conym_hr">28d216dedb40c740bc1cf2f9af9619f9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Human Resources Department">28d216dedb40c740bc1cf2f9af9619f9</sys_scope>
+        <sys_update_name>sys_script_client_854a5e98db7cc3006f3cfbb9af961984</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-10-07 21:16:14</sys_updated_on>
+        <table>x_conym_hr_jd</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

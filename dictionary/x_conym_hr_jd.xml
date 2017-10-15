@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Job Description" max_length="40" name="x_conym_hr_jd" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Professional Competencies" mandatory="true" max_length="8000" name="u_competencies" type="html"/>
+        <element label="Copy from job description" max_length="32" name="u_copy_from_job_description" reference="x_conym_hr_jd" reference_qual="u_job_description_approved=true^EQ" reference_qual_condition="u_job_description_approved=true^EQ" type="reference"/>
+        <element display="true" label="Functional Title" max_length="32" name="u_functional_title" reference="u_user_functional_titles" type="reference"/>
+        <element label="Functional title qualifier" max_length="64" name="u_functional_title_qualifier" type="string"/>
+        <element label="Has attachment" max_length="40" name="u_has_attachment" type="boolean"/>
+        <element label="Job code" max_length="26" name="u_job_code" type="string"/>
+        <element label="Job description approved" max_length="40" name="u_job_description_approved" read_only="true" type="boolean"/>
+        <element label="Licensure and/or Certification Required:" mandatory="true" max_length="8000" name="u_licensure" type="html"/>
+        <element label="New functional title" max_length="64" name="u_new_functional_title" type="string"/>
+        <element label="Purpose of Position" mandatory="true" max_length="8000" name="u_purpose_of_position" type="html"/>
+        <element label="Required Education, Training and Professional Experience:" mandatory="true" max_length="8000" name="u_required_education" type="html"/>
+        <element label="Scope of Role &amp; Responsibilities" mandatory="true" max_length="8000" name="u_scope_of_role" type="html"/>
+        <element choice="3" default="in_progress" label="Stage" max_length="80" name="u_stage" type="workflow">
+            <choice>
+                <element label="In progress" sequence="2" value="in_progress"/>
+                <element label="Approval" sequence="3" value="approval"/>
+                <element label="Completed" sequence="4" value="completed"/>
+            </choice>
+        </element>
+        <element label="Supervisor" mandatory="true" max_length="128" name="u_supervisor" reference="u_user_functional_titles" type="reference"/>
+        <index name="index">
+            <element name="u_functional_title"/>
+        </index>
+        <index name="index2">
+            <element name="u_supervisor"/>
+        </index>
+        <index name="index3">
+            <element name="u_copy_from_job_description"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_required_education" label="Required Education, Training and Professional Experience: " language="en" table="x_conym_hr_jd">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_required_education</element>
+            <help/>
+            <hint/>
+            <label>Required Education, Training and Professional Experience: </label>
+            <language>en</language>
+            <name>x_conym_hr_jd</name>
+            <plural>Required Education, Training and Professional Experience: s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-07-28 17:07:33</sys_created_on>
+            <sys_id>c8d29fac0f9003003ed88b9ae1050e0a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Required Education, Training and Professional Experience:</sys_name>
+            <sys_package display_value="Human Resources Department" source="x_conym_hr">28d216dedb40c740bc1cf2f9af9619f9</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Human Resources Department">28d216dedb40c740bc1cf2f9af9619f9</sys_scope>
+            <sys_update_name>sys_documentation_x_conym_hr_jd_u_required_education_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-07-28 17:07:33</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

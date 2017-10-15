@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_to_position_is" table="x_conym_hr_paf" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_to_position_is</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Full Time</label>
+            <language>en</language>
+            <name>x_conym_hr_paf</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin_mp</sys_created_by>
+            <sys_created_on>2017-10-10 16:47:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d1d3d428dbbdcb006f3cfbb9af961959</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin_mp</sys_updated_by>
+            <sys_updated_on>2017-10-10 16:47:34</sys_updated_on>
+            <value>FT</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_to_position_is</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Part Time</label>
+            <language>en</language>
+            <name>x_conym_hr_paf</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin_mp</sys_created_by>
+            <sys_created_on>2017-10-10 16:47:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4be354e4dbbdcb006f3cfbb9af9619e7</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin_mp</sys_updated_by>
+            <sys_updated_on>2017-10-10 16:49:29</sys_updated_on>
+            <value>PT</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_to_position_is</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Temp</label>
+            <language>en</language>
+            <name>x_conym_hr_paf</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin_mp</sys_created_by>
+            <sys_created_on>2017-10-10 16:47:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>36f31828dbbdcb006f3cfbb9af961994</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin_mp</sys_updated_by>
+            <sys_updated_on>2017-10-10 16:47:58</sys_updated_on>
+            <value>temp</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_to_position_is</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Summer</label>
+            <language>en</language>
+            <name>x_conym_hr_paf</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin_mp</sys_created_by>
+            <sys_created_on>2017-10-10 16:48:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b9041828dbbdcb006f3cfbb9af9619a3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin_mp</sys_updated_by>
+            <sys_updated_on>2017-10-10 16:48:11</sys_updated_on>
+            <value>summer</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_to_position_is</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Per Diem</label>
+            <language>en</language>
+            <name>x_conym_hr_paf</name>
+            <sequence>5</sequence>
+            <sys_created_by>admin_mp</sys_created_by>
+            <sys_created_on>2017-10-10 16:48:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>91149428dbbdcb006f3cfbb9af9619c9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin_mp</sys_updated_by>
+            <sys_updated_on>2017-10-10 16:48:25</sys_updated_on>
+            <value>per_diem</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_to_position_is</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>On Call</label>
+            <language>en</language>
+            <name>x_conym_hr_paf</name>
+            <sequence>6</sequence>
+            <sys_created_by>admin_mp</sys_created_by>
+            <sys_created_on>2017-10-10 16:48:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>83241828dbbdcb006f3cfbb9af961900</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin_mp</sys_updated_by>
+            <sys_updated_on>2017-10-10 16:48:48</sys_updated_on>
+            <value>on_call</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_to_position_is</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Hourly</label>
+            <language>en</language>
+            <name>x_conym_hr_paf</name>
+            <sequence>7</sequence>
+            <sys_created_by>admin_mp</sys_created_by>
+            <sys_created_on>2017-10-10 16:49:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dd441428dbbdcb006f3cfbb9af961994</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin_mp</sys_updated_by>
+            <sys_updated_on>2017-10-10 16:49:14</sys_updated_on>
+            <value>hourly</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_to_position_is</element>
+            <name>x_conym_hr_paf</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin_mp</sys_created_by>
+            <sys_created_on>2017-10-10 16:47:34</sys_created_on>
+            <sys_id>834560110f7103003ed88b9ae1050eb5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_to_position_is</sys_name>
+            <sys_package display_value="Human Resources Department" source="x_conym_hr">28d216dedb40c740bc1cf2f9af9619f9</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Human Resources Department">28d216dedb40c740bc1cf2f9af9619f9</sys_scope>
+            <sys_update_name>sys_choice_x_conym_hr_paf_u_to_position_is</sys_update_name>
+            <sys_updated_by>admin_mp</sys_updated_by>
+            <sys_updated_on>2017-10-10 16:47:34</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

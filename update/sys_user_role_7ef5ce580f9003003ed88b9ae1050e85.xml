@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description>HR department reviewing  PRF/PAF requests</description>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_conym_hr.staffing_control</name>
+        <suffix>staffing_control</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-07-27 16:54:01</sys_created_on>
+        <sys_id>7ef5ce580f9003003ed88b9ae1050e85</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_conym_hr.staffing_control</sys_name>
+        <sys_package display_value="Human Resources Department" source="x_conym_hr">28d216dedb40c740bc1cf2f9af9619f9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Human Resources Department">28d216dedb40c740bc1cf2f9af9619f9</sys_scope>
+        <sys_update_name>sys_user_role_7ef5ce580f9003003ed88b9ae1050e85</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-10-13 15:26:26</sys_updated_on>
+    </sys_user_role>
+</record_update>

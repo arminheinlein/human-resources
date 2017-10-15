@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_appointment</field>
+        <global>true</global>
+        <messages/>
+        <name>PAF - Verify the data (onSubmit)</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+	
+	var fields = g_form.getEditableFields();
+	for (var x = 0; x < fields.length; x++) {
+		g_form.hideFieldMsg(fields[x]);
+	}
+	
+	var action = g_form.getActionName();
+	var pers_action = g_form.getValue('u_personnel_action_for');
+	var error = 'false';
+	
+	// Wenn sumitting the PRF we need to verify the data
+	if(action != 'save_paf' && action != 'sysverb_update') {
+		checkSubmitPafNew();
+		if(pers_action != 'appointment') {
+			checkSubmitPafChange();
+		}
+		if(error == 'true'){
+			return false;
+		}
+	}
+	
+	// -------------------------------------------
+	
+	function checkSubmitPafNew(){
+		
+		if(g_form.getValue('u_personnel_action_for') == '') {
+			error = 'true';
+			g_form.showFieldMsg('u_personnel_action_for', 'Personnel action for must be selected.', 'error');
+		}
+		if(g_form.getValue('u_maildrop') == '') {
+			error = 'true';
+			g_form.showFieldMsg('u_maildrop', 'A Position must be selected.', 'error');
+		}
+		if(g_form.getValue('u_hiring_manager') == '') {
+			error = 'true';
+			g_form.showFieldMsg('u_hiring_manager', 'Hiring manager must be selected.', 'error');
+		}
+		if(g_form.getValue('u_effective') == '') {
+			error = 'true';
+			g_form.showFieldMsg('u_effective', 'Effective date must be provided.', 'error');
+		}
+		if(g_form.getValue('u_appointment') == '') {
+			error = 'true';
+			g_form.showFieldMsg('u_appointment', 'Appointment must be provided.', 'error');
+		}
+		if(pers_action == 'appointment' && (g_form.getValue('u_first_name') == '' || g_form.getValue('u_last_name') == '')){
+			error = 'true';
+			g_form.showFieldMsg('u_first_name', 'First name must be entered.', 'error');
+			g_form.showFieldMsg('u_last_name', 'First name must be entered.', 'error');
+		}
+		if(pers_action != 'appointment' && pers_action !=''){
+			if(g_form.getValue('u_employee') == ''){
+				error = 'true';
+				g_form.showFieldMsg('u_employee', 'Employee must be entered.', 'error');
+			}
+		}
+	}
+	function checkSubmitPafChange(){
+		
+		if(g_form.getValue('u_from_department') != '' && g_form.getValue('u_to_department') == '') {
+			error = 'true';
+			g_form.showFieldMsg('u_to_department', 'Todepartment must be selected.', 'error');
+		}
+		if(g_form.getValue('u_from_position_is') != '' && g_form.getValue('u_to_position_is') == '') {
+			error = 'true';
+			g_form.showFieldMsg('u_to_position_is', 'To position must be selected.', 'error');
+		}
+		if(g_form.getValue('u_from_job_no') != '' && g_form.getValue('u_to_job_no') == '') {
+			error = 'true';
+			g_form.showFieldMsg('u_to_job_no', 'To job no. must be entered.', 'error');
+		}
+		if(g_form.getValue('u_from_reimb_code') != '' && g_form.getValue('u_to_reimb_code') == '') {
+			error = 'true';
+			g_form.showFieldMsg('u_to_reimb_code', 'To reimb code must be entered.', 'error');
+		}
+		if(g_form.getValue('u_from_hours_per_week') != 0 && g_form.getValue('u_to_hours_per_week') == 0) {
+			error = 'true';
+			g_form.showFieldMsg('u_to_hours_per_week', 'To hours per week must be entered.', 'error');
+		}
+		if(g_form.getValue('u_from_salary') != 'USD;0.00' && g_form.getValue('u_to_salary') == 'USD;0.00') {
+			error = 'true';
+			g_form.showFieldMsg('u_to_salary', 'To salary must be entered.', 'error');
+		}
+		if(g_form.getValue('u_from_department') == '' && g_form.getValue('u_from_position_is') == '' && g_form.getValue('u_from_job_no') == '' && g_form.getValue('u_from_reimb_code') == '' && g_form.getValue('u_from_hours_per_week') == '' && g_form.getValue('u_from_salary') == 'USD;0.00' ) {
+			error = 'true';
+			g_form.addErrorMessage("No selection for transfer, promotion or salary was made. You must selected at least one reason.");
+		}
+	}
+	
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-10-10 20:24:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>375541a4db310f006f3cfbb9af9619dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PAF - Verify the data (onSubmit)</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Human Resources Department" source="x_conym_hr">28d216dedb40c740bc1cf2f9af9619f9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Human Resources Department">28d216dedb40c740bc1cf2f9af9619f9</sys_scope>
+        <sys_update_name>sys_script_client_375541a4db310f006f3cfbb9af9619dd</sys_update_name>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-10-10 20:24:44</sys_updated_on>
+        <table>x_conym_hr_paf</table>
+        <type>onSubmit</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

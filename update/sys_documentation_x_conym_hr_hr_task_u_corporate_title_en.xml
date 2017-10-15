@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_corporate_title" label="Corporate Title" language="en" table="x_conym_hr_hr_task">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_corporate_title</element>
+            <help/>
+            <hint/>
+            <label>Corporate Title</label>
+            <language>en</language>
+            <name>x_conym_hr_hr_task</name>
+            <plural>Corporate Titles</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-05 16:14:48</sys_created_on>
+            <sys_id>ccf55eb2dbad4b00bc1cf2f9af961976</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Corporate Title</sys_name>
+            <sys_package display_value="Human Resources Department" source="x_conym_hr">28d216dedb40c740bc1cf2f9af9619f9</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Human Resources Department">28d216dedb40c740bc1cf2f9af9619f9</sys_scope>
+            <sys_update_name>sys_documentation_x_conym_hr_hr_task_u_corporate_title_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-05 16:14:48</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

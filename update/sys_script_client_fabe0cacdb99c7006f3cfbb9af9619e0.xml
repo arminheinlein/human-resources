@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_copy_from_job_description</field>
+        <global>true</global>
+        <messages/>
+        <name>JD - Verify job description (onSubmit)</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+	
+	var fields = g_form.getEditableFields();
+	for (var x = 0; x < fields.length; x++) {
+		g_form.hideFieldMsg(fields[x]);
+	}
+	
+	var func_title = g_form.getValue('u_functional_title');
+	var new_func_title = g_form.getValue('u_new_functional_title');
+	var error = 'false';
+	
+	if(func_title != '' && new_func_title != ''){
+		error = 'true';
+		g_form.showFieldMsg('u_functional_title', 'Both fields cannot be filled.', 'error');
+		g_form.showFieldMsg('u_new_functional_title', 'Both fields cannot be filled.', 'error');
+	}
+	if(func_title == '' && new_func_title == ''){
+		error = 'true';
+		g_form.showFieldMsg('u_functional_title', 'Please enter either functional title or new functional title.', 'error');
+		g_form.showFieldMsg('u_new_functional_title', 'Please enter either functional title or new functional title.', 'error');
+	}
+	if(error =='true'){
+		return false;
+	}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-15 20:00:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fabe0cacdb99c7006f3cfbb9af9619e0</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>JD - Verify job description (onSubmit)</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Human Resources Department" source="x_conym_hr">28d216dedb40c740bc1cf2f9af9619f9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Human Resources Department">28d216dedb40c740bc1cf2f9af9619f9</sys_scope>
+        <sys_update_name>sys_script_client_fabe0cacdb99c7006f3cfbb9af9619e0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-10-07 21:16:14</sys_updated_on>
+        <table>x_conym_hr_jd</table>
+        <type>onSubmit</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

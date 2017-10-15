@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="INSERT_OR_UPDATE">
+        <group_id/>
+        <report_id display_value="PRF for HR review">2240deb0db3d0f006f3cfbb9af9619fe</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-10-11 20:29:34</sys_created_on>
+        <sys_id>a640deb0db3d0f006f3cfbb9af9619fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2240deb0db3d0f006f3cfbb9af9619fe</sys_name>
+        <sys_package display_value="Human Resources Department" source="x_conym_hr">28d216dedb40c740bc1cf2f9af9619f9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Human Resources Department">28d216dedb40c740bc1cf2f9af9619f9</sys_scope>
+        <sys_update_name>sys_report_users_groups_a640deb0db3d0f006f3cfbb9af9619fe</sys_update_name>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-10-11 20:29:34</sys_updated_on>
+        <user_id display_value="Armin Heinlein">05f8b90fdb1baa006f3cfbb9af96195e</user_id>
+    </sys_report_users_groups>
+</record_update>

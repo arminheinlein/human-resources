@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="x_conym_hr.user" name="x_conym_hr.user">b38d3bb70f0003003ed88b9ae1050e17</contains>
+        <role display_value="x_conym_hr.staffing_control" name="x_conym_hr.staffing_control">7ef5ce580f9003003ed88b9ae1050e85</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-03 13:51:54</sys_created_on>
+        <sys_id>109f95620f5003003ed88b9ae1050e4f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_conym_hr.user.x_conym_hr.staffing_control</sys_name>
+        <sys_package display_value="Human Resources Department" source="x_conym_hr">28d216dedb40c740bc1cf2f9af9619f9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Human Resources Department">28d216dedb40c740bc1cf2f9af9619f9</sys_scope>
+        <sys_update_name>sys_user_role_contains_109f95620f5003003ed88b9ae1050e4f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-03 13:51:54</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>

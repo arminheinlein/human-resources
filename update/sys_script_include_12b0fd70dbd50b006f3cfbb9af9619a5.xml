@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_conym_hr.getJobDescriptionDetails</api_name>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>getJobDescriptionDetails</name>
+        <script><![CDATA[var getJobDescriptionDetails = Class.create();
+getJobDescriptionDetails.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	
+	getJobDescriptionInfo: function() {
+		var jd_id = this.getParameter('sysparm_JobDescription');
+		var jd = new GlideRecord('x_conym_hr_jd');
+		jd.get(jd_id);
+		func_title = jd.getDisplayValue('u_functional_title');
+		return func_title +'|'+jd.u_new_functional_title +'|';
+	},
+	type: 'getJobDescriptionDetails'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-16 21:40:16</sys_created_on>
+        <sys_id>12b0fd70dbd50b006f3cfbb9af9619a5</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>getJobDescriptionDetails</sys_name>
+        <sys_package display_value="Human Resources Department" source="x_conym_hr">28d216dedb40c740bc1cf2f9af9619f9</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Human Resources Department">28d216dedb40c740bc1cf2f9af9619f9</sys_scope>
+        <sys_update_name>sys_script_include_12b0fd70dbd50b006f3cfbb9af9619a5</sys_update_name>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-16 22:09:41</sys_updated_on>
+    </sys_script_include>
+</record_update>

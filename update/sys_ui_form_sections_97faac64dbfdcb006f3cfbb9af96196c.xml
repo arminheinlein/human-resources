@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="97faac64dbfdcb006f3cfbb9af96196c" sys_domain="global" table="x_conym_hr_jd" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin_mp</sys_created_by>
+            <sys_created_on>2017-10-10 18:28:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1ffaac64dbfdcb006f3cfbb9af96196f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_conym_hr_jd" name="x_conym_hr_jd" sys_domain="global" view="Default view">97faac64dbfdcb006f3cfbb9af96196c</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_conym_hr_jd" sys_domain="global" view="Default view">305b3f370f0003003ed88b9ae1050e14</sys_ui_section>
+            <sys_updated_by>admin_mp</sys_updated_by>
+            <sys_updated_on>2017-10-10 18:28:30</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin_mp</sys_created_by>
+            <sys_created_on>2017-10-10 18:28:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dbfaec64dbfdcb006f3cfbb9af9619cc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_conym_hr_jd" name="x_conym_hr_jd" sys_domain="global" view="Default view">97faac64dbfdcb006f3cfbb9af96196c</sys_ui_form>
+            <sys_ui_section caption="Purpose of Position" display_value="Purpose of Position" name="x_conym_hr_jd" sys_domain="global" view="Default view">5bfaac64dbfdcb006f3cfbb9af961969</sys_ui_section>
+            <sys_updated_by>admin_mp</sys_updated_by>
+            <sys_updated_on>2017-10-10 18:28:30</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin_mp</sys_created_by>
+            <sys_created_on>2017-10-10 18:28:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1bfaec64dbfdcb006f3cfbb9af9619d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_conym_hr_jd" name="x_conym_hr_jd" sys_domain="global" view="Default view">97faac64dbfdcb006f3cfbb9af96196c</sys_ui_form>
+            <sys_ui_section caption="Scope of Role and Responsibilities" display_value="Scope of Role and Responsibilities" name="x_conym_hr_jd" sys_domain="global" view="Default view">57faac64dbfdcb006f3cfbb9af96196a</sys_ui_section>
+            <sys_updated_by>admin_mp</sys_updated_by>
+            <sys_updated_on>2017-10-10 18:28:30</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin_mp</sys_created_by>
+            <sys_created_on>2017-10-10 18:28:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9bfaec64dbfdcb006f3cfbb9af9619d6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_conym_hr_jd" name="x_conym_hr_jd" sys_domain="global" view="Default view">97faac64dbfdcb006f3cfbb9af96196c</sys_ui_form>
+            <sys_ui_section caption="Required Education and Training" display_value="Required Education and Training" name="x_conym_hr_jd" sys_domain="global" view="Default view">1ffaac64dbfdcb006f3cfbb9af96196a</sys_ui_section>
+            <sys_updated_by>admin_mp</sys_updated_by>
+            <sys_updated_on>2017-10-10 18:28:30</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>admin_mp</sys_created_by>
+            <sys_created_on>2017-10-10 18:28:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d3faec64dbfdcb006f3cfbb9af9619dc</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_conym_hr_jd" name="x_conym_hr_jd" sys_domain="global" view="Default view">97faac64dbfdcb006f3cfbb9af96196c</sys_ui_form>
+            <sys_ui_section caption="Licensure Certification" display_value="Licensure Certification" name="x_conym_hr_jd" sys_domain="global" view="Default view">bde4dfec0f9003003ed88b9ae1050e81</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-13 01:59:18</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>admin_mp</sys_created_by>
+            <sys_created_on>2017-10-10 18:28:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d3faec64dbfdcb006f3cfbb9af9619e2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_conym_hr_jd" name="x_conym_hr_jd" sys_domain="global" view="Default view">97faac64dbfdcb006f3cfbb9af96196c</sys_ui_form>
+            <sys_ui_section caption="Professional Competencies" display_value="Professional Competencies" name="x_conym_hr_jd" sys_domain="global" view="Default view">9bfaac64dbfdcb006f3cfbb9af96196b</sys_ui_section>
+            <sys_updated_by>admin_mp</sys_updated_by>
+            <sys_updated_on>2017-10-10 18:28:30</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_conym_hr_jd</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin_mp</sys_created_by>
+            <sys_created_on>2017-10-10 18:28:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>97faac64dbfdcb006f3cfbb9af96196c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_conym_hr_jd</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Human Resources Department" source="x_conym_hr">28d216dedb40c740bc1cf2f9af9619f9</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Human Resources Department">28d216dedb40c740bc1cf2f9af9619f9</sys_scope>
+            <sys_update_name>sys_ui_form_sections_97faac64dbfdcb006f3cfbb9af96196c</sys_update_name>
+            <sys_updated_by>admin_mp</sys_updated_by>
+            <sys_updated_on>2017-10-10 18:28:29</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

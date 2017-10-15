@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" label="Position" max_length="40" name="x_conym_hr_position" type="collection">
+        <element attributes="no_multiple=false" label="Building access" max_length="4000" name="u_building_access" reference="x_conym_hr_choice" reference_qual="u_element=building_access^u_inactive=false^EQ" reference_qual_condition="u_element=building_access^u_inactive=false^EQ" type="glide_list"/>
+        <element label="Corporate Title" max_length="128" name="u_corporate_title" type="string"/>
+        <element label="Department" max_length="32" name="u_department" reference="cmn_department" type="reference"/>
+        <element label="Effective" max_length="40" name="u_effective" type="glide_date"/>
+        <element label="Employee" max_length="32" name="u_employee" reference="sys_user" type="reference"/>
+        <element label="Entitlements" max_length="4000" name="u_entitlements" reference="x_conym_hr_choice" reference_qual="u_element=entitlements^u_inactive=false^EQ" reference_qual_condition="u_element=entitlements^u_inactive=false^EQ" type="glide_list"/>
+        <element label="Final agreed salary" max_length="20" name="u_final_salary" type="currency"/>
+        <element choice="1" label="Full/Part time" max_length="40" name="u_full_part_time" type="choice">
+            <choice>
+                <element label="F-20 hours per week Annual B1" value="20_ hours_B1"/>
+                <element label="Full Time" value="FT"/>
+                <element label="Part Time" value="PT"/>
+                <element label="Y-Part-time Hourly W1" value="part_time_w1"/>
+                <element label="A-Full-time Annual B1" sequence="1" value="full_time_b1"/>
+            </choice>
+        </element>
+        <element label="Functional title" max_length="128" name="u_functional_title" type="string"/>
+        <element label="Job description" max_length="32" name="u_job_description" reference="x_conym_hr_jd" reference_floats="true" type="reference"/>
+        <element label="Job family" max_length="26" name="u_job_family" type="string"/>
+        <element display="true" label="Maildrop" max_length="26" name="u_maildrop" type="string"/>
+        <element label="Parent position" max_length="32" name="u_parent_position" read_only="true" reference="x_conym_hr_position" type="reference"/>
+        <element label="PeopleSoft reference" max_length="255" name="u_peoplesoft_reference" type="string"/>
+        <element label="Position active until" max_length="40" name="u_position_active_until" type="glide_date"/>
+        <element choice="1" label="Regular/Temporary" max_length="40" name="u_reg_temp" type="choice">
+            <choice>
+                <element label="Temporary" value="temporary"/>
+                <element label="Regular" sequence="1" value="regular"/>
+            </choice>
+        </element>
+        <element choice="1" label="Salary is" max_length="40" name="u_salary_is" type="choice">
+            <choice>
+                <element label="Per Hour" value="per_hour"/>
+                <element label="Per Diem" sequence="2" value="per_diem"/>
+                <element label="Per Week" sequence="3" value="per_week"/>
+                <element label="Per Annum" sequence="4" value="per_annum"/>
+            </choice>
+        </element>
+        <element label="Salary not to execeed" max_length="20" name="u_salary_not_to_execeed" type="currency"/>
+        <element choice="1" label="Position status" max_length="40" name="u_status" type="choice">
+            <choice>
+                <element label="Active" sequence="1" value="active"/>
+                <element label="Approved" sequence="2" value="approved"/>
+                <element label="Frozen" sequence="3" value="frozen"/>
+            </choice>
+        </element>
+        <element label="Work Notes" max_length="4000" name="u_work_notes" type="journal_input"/>
+        <index name="index">
+            <element name="u_employee"/>
+        </index>
+        <index name="index2">
+            <element name="u_department"/>
+        </index>
+        <index name="index3">
+            <element name="u_job_description"/>
+        </index>
+        <index name="index4">
+            <element name="u_peoplesoft_reference"/>
+        </index>
+        <index name="index5">
+            <element name="u_parent_position"/>
+        </index>
+    </element>
+</database>

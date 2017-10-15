@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Scope of Role and Responsibilities" section_id="57faac64dbfdcb006f3cfbb9af96196a" sys_domain="global" table="x_conym_hr_jd" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_scope_of_role</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-07-28 17:16:42</sys_created_on>
+            <sys_id>fde4dfec0f9003003ed88b9ae1050eed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Scope of Role and Responsibilities" display_value="Scope of Role and Responsibilities" name="x_conym_hr_jd" sys_domain="global" view="Default view">57faac64dbfdcb006f3cfbb9af96196a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-07-28 17:16:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Scope of Role and Responsibilities</caption>
+            <header>false</header>
+            <name>x_conym_hr_jd</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-07-28 17:16:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>57faac64dbfdcb006f3cfbb9af96196a</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>Scope of Role and Responsibilities</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Human Resources Department" source="x_conym_hr">28d216dedb40c740bc1cf2f9af9619f9</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Human Resources Department">28d216dedb40c740bc1cf2f9af9619f9</sys_scope>
+            <sys_update_name>sys_ui_section_57faac64dbfdcb006f3cfbb9af96196a</sys_update_name>
+            <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+            <sys_updated_on>2017-08-15 18:02:33</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

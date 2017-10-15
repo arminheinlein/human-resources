@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>hr_prf_body</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript(/* GlideRecord */ current, /* TemplatePrinter */ template,
+          /* Optional EmailOutbound */ email, /* Optional GlideRecord */ email_action,
+          /* Optional GlideRecord */ event) {
+
+	// Format the box for "Take me to the Information" hyperlink
+	var backgroundColor = 'background-color: #278efc;';
+	var border = 'border: 1px solid #0368d4;';
+	var color = 'color: #ffffff;';
+	var fontSize = 'font-size: 14px;';
+	var fontFamily = 'font-family: Helvetica, Arial, sans-serif;';
+	var textDecoration = 'text-decoration: none; border-radius: 3px;';
+	var webKitBorder = '-webkit-border-radius: 3px;';
+	var mozBorder = '-moz-border-radius: 3px;';
+	var display = 'display: inline-block;';
+	var padding = 'padding: 5px;';
+
+	// Prepare the URL for "Take me to the Information"
+	var instance = gs.getProperty("instance_name");
+	var URL1 = 'https://' +instance;
+	var URL2 = '.service-now.com/';
+	var URL = URL1 +URL2;
+	var link = current.getLink();
+
+	// Output the information 
+	template.print('<a href="' + URL + link + '"');
+	template.print('style="' + backgroundColor + border + color + fontSize + fontFamily 
+				   + textDecoration + webKitBorder + mozBorder + display + padding);
+	template.print('">');
+	template.print(gs.getMessage('Take me to the PRF'));
+	template.print('</a>');
+	template.print('</font>');
+	template.print('<br><br>');
+	template.print('<p><font size="2" color="#000000" face="helvetica">');
+
+/*	//  Add attachments	to the email 
+	var gr = new GlideRecord('sys_attachment');
+    gr.addQuery('table_sys_id',current.sys_id);
+    gr.query();
+    while (gr.next()) {
+        template.print('Attachment: <a href="' +URL +'sys_attachment.do?sys_id='+ gr.sys_id + '">' 
+					   + gr.file_name + '</a><br>');
+    } */
+	
+
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-09 16:11:19</sys_created_on>
+        <sys_id>fb9834640fe803003ed88b9ae1050e5e</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>hr_prf_body</sys_name>
+        <sys_package display_value="Human Resources Department" source="x_conym_hr">28d216dedb40c740bc1cf2f9af9619f9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Human Resources Department">28d216dedb40c740bc1cf2f9af9619f9</sys_scope>
+        <sys_update_name>sys_script_email_fb9834640fe803003ed88b9ae1050e5e</sys_update_name>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-18 15:39:51</sys_updated_on>
+    </sys_script_email>
+</record_update>

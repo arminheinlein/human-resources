@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_properties_category">
+    <sys_properties_category action="INSERT_OR_UPDATE">
+        <name>Human Resources Application Properties</name>
+        <sys_class_name>sys_properties_category</sys_class_name>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-14 18:44:32</sys_created_on>
+        <sys_id>8425b684db55cf00bc1cf2f9af9619ed</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Human Resources Application Properties</sys_name>
+        <sys_package display_value="Human Resources Department" source="x_conym_hr">28d216dedb40c740bc1cf2f9af9619f9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Human Resources Department">28d216dedb40c740bc1cf2f9af9619f9</sys_scope>
+        <sys_update_name>sys_properties_category_8425b684db55cf00bc1cf2f9af9619ed</sys_update_name>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-14 18:44:47</sys_updated_on>
+        <title><![CDATA[<p><img style="align: baseline;" title="" src="sys_attachment.do?sys_id&#61;2836bb440f1332003ed88b9ae1050e2c" alt="" align="baseline" border="" hspace="" vspace="" /><span style="font-size: 24pt;"><strong>Human Resources Application Properties</strong></span></p>
+<p><span style="font-size: 24pt;"><span style="font-size: 12pt;">These application properties can only be updated by users with the role: admin</span></span></p>
+<p> </p>]]></title>
+    </sys_properties_category>
+    <sys_translated_text action="delete_multiple" query="documentkey=8425b684db55cf00bc1cf2f9af9619ed"/>
+</record_update>

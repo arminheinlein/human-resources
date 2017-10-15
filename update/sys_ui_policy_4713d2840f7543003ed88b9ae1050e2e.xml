@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions/>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>110</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+	
+	if(!g_user.hasRole('admin')){
+		if(!g_user.hasRole('x_conym_hr.staffing_control')){
+			var fields = g_form.getEditableFields();
+			for (var x = 0; x < fields.length; x++) {
+				g_form.setDisplay(fields[x], false);
+			}
+		}
+	}
+	
+}]]></script_true>
+        <set_values/>
+        <short_description>Position -Hide fields for hiring manager</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-10-09 12:48:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4713d2840f7543003ed88b9ae1050e2e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Position -Hide fields for hiring manager</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Human Resources Department" source="x_conym_hr">28d216dedb40c740bc1cf2f9af9619f9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Human Resources Department">28d216dedb40c740bc1cf2f9af9619f9</sys_scope>
+        <sys_update_name>sys_ui_policy_4713d2840f7543003ed88b9ae1050e2e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-10-09 12:48:01</sys_updated_on>
+        <table>x_conym_hr_position</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>Signature Task</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Signature Task</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">3237af45dd2003003399d83d70be02ce</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-10-13 16:10:06</sys_created_on>
+        <sys_id>491863950f7103003ed88b9ae1050e2a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Signature Task</sys_name>
+        <sys_package display_value="Human Resources Department" source="x_conym_hr">28d216dedb40c740bc1cf2f9af9619f9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Human Resources Department">28d216dedb40c740bc1cf2f9af9619f9</sys_scope>
+        <sys_update_name>sys_wizard_answer_491863950f7103003ed88b9ae1050e2a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-10-13 16:10:06</sys_updated_on>
+        <table/>
+        <target_url>u_sig_task.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>

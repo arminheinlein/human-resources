@@ -1,0 +1,1027 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update node_type="sys_portal_page" unload_date="2017-10-15 17:42:57">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout display_value="layout_2_across">f6defafa0a0a0b12000d5016bd12ff06</layout>
+        <order/>
+        <read_roles>x_conym_hr.staffing_control,x_conym_hr.user</read_roles>
+        <roles>x_conym_hipaa_req.user,x_conym_hr.staffing_control</roles>
+        <selectable>true</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-10-11 19:20:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a990ca38dbf90f006f3cfbb9af9619de</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>HR Homepage</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Human Resources Department">28d216dedb40c740bc1cf2f9af9619f9</sys_scope>
+        <sys_update_name>sys_portal_page_a990ca38dbf90f006f3cfbb9af9619de</sys_update_name>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-10-11 19:52:41</sys_updated_on>
+        <title>HR Homepage</title>
+        <user/>
+        <view/>
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone1</dropzone>
+                <offset>1</offset>
+                <page display_value="HR Homepage">a990ca38dbf90f006f3cfbb9af9619de</page>
+                <summary/>
+                <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                <sys_id>65b2ceb8dbf90f006f3cfbb9af9619e1</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2017-10-11 15:30:15">65b2ceb8dbf90f006f3cfbb9af9619e1</portal_section>
+                        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                        <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                        <sys_id>65b2ceb8dbf90f006f3cfbb9af9619e3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                        <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                        <value>63cd79f4dbf90f006f3cfbb9af961904</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_size</name>
+                        <portal_section display_value="Created 2017-10-11 15:30:15">65b2ceb8dbf90f006f3cfbb9af9619e1</portal_section>
+                        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                        <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                        <sys_id>e1b2ceb8dbf90f006f3cfbb9af9619e2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                        <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                        <value>10pt</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_title</name>
+                        <portal_section display_value="Created 2017-10-11 15:30:15">65b2ceb8dbf90f006f3cfbb9af9619e1</portal_section>
+                        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                        <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                        <sys_id>e1b2ceb8dbf90f006f3cfbb9af9619e4</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                        <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2017-10-11 15:30:15">65b2ceb8dbf90f006f3cfbb9af9619e1</portal_section>
+                        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                        <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                        <sys_id>e5b2ceb8dbf90f006f3cfbb9af9619e1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                        <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderFilters</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>real_time</name>
+                        <portal_section display_value="Created 2017-10-11 15:30:15">65b2ceb8dbf90f006f3cfbb9af9619e1</portal_section>
+                        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                        <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                        <sys_id>e5b2ceb8dbf90f006f3cfbb9af9619e2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                        <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>publisher_widget</name>
+                        <portal_section display_value="Created 2017-10-11 15:30:15">65b2ceb8dbf90f006f3cfbb9af9619e1</portal_section>
+                        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                        <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                        <sys_id>e5b2ceb8dbf90f006f3cfbb9af9619e4</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                        <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_align</name>
+                        <portal_section display_value="Created 2017-10-11 15:30:15">65b2ceb8dbf90f006f3cfbb9af9619e1</portal_section>
+                        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                        <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                        <sys_id>e9b2ceb8dbf90f006f3cfbb9af9619e1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                        <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                        <value>left</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_border</name>
+                        <portal_section display_value="Created 2017-10-11 15:30:15">65b2ceb8dbf90f006f3cfbb9af9619e1</portal_section>
+                        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                        <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                        <sys_id>e9b2ceb8dbf90f006f3cfbb9af9619e2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                        <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>view</name>
+                        <portal_section display_value="Created 2017-10-11 15:30:15">65b2ceb8dbf90f006f3cfbb9af9619e1</portal_section>
+                        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                        <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                        <sys_id>e9b2ceb8dbf90f006f3cfbb9af9619e3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                        <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>widget_height</name>
+                        <portal_section display_value="Created 2017-10-11 15:30:15">65b2ceb8dbf90f006f3cfbb9af9619e1</portal_section>
+                        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                        <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                        <sys_id>e9b2ceb8dbf90f006f3cfbb9af9619e4</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                        <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                        <value>250</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>filter_indicator</name>
+                        <portal_section display_value="Created 2017-10-11 15:30:15">65b2ceb8dbf90f006f3cfbb9af9619e1</portal_section>
+                        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                        <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                        <sys_id>edb2ceb8dbf90f006f3cfbb9af9619e1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                        <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2017-10-11 15:30:15">65b2ceb8dbf90f006f3cfbb9af9619e1</portal_section>
+                        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                        <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                        <sys_id>edb2ceb8dbf90f006f3cfbb9af9619e2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                        <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                        <value>My Pending PAF</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>subscriber_widget</name>
+                        <portal_section display_value="Created 2017-10-11 15:30:15">65b2ceb8dbf90f006f3cfbb9af9619e1</portal_section>
+                        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                        <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                        <sys_id>edb2ceb8dbf90f006f3cfbb9af9619e3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                        <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2017-10-11 15:30:15">65b2ceb8dbf90f006f3cfbb9af9619e1</portal_section>
+                        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                        <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                        <sys_id>edb2ceb8dbf90f006f3cfbb9af9619e4</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                        <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                        <value>a990ca38dbf90f006f3cfbb9af9619de</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone2</dropzone>
+                <offset>0</offset>
+                <page display_value="HR Homepage">a990ca38dbf90f006f3cfbb9af9619de</page>
+                <summary/>
+                <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                <sys_id>65b2ceb8dbf90f006f3cfbb9af9619e5</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2017-10-11 15:30:15">65b2ceb8dbf90f006f3cfbb9af9619e5</portal_section>
+                        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                        <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                        <sys_id>65b2ceb8dbf90f006f3cfbb9af9619e7</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                        <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                        <value>156e7db4dbf90f006f3cfbb9af9619cb</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_size</name>
+                        <portal_section display_value="Created 2017-10-11 15:30:15">65b2ceb8dbf90f006f3cfbb9af9619e5</portal_section>
+                        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                        <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                        <sys_id>e1b2ceb8dbf90f006f3cfbb9af9619e6</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                        <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                        <value>10pt</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>widget_height</name>
+                        <portal_section display_value="Created 2017-10-11 15:30:15">65b2ceb8dbf90f006f3cfbb9af9619e5</portal_section>
+                        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                        <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                        <sys_id>e1b2ceb8dbf90f006f3cfbb9af9619e8</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                        <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                        <value>250</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2017-10-11 15:30:15">65b2ceb8dbf90f006f3cfbb9af9619e5</portal_section>
+                        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                        <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                        <sys_id>e5b2ceb8dbf90f006f3cfbb9af9619e5</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                        <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderFilters</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>real_time</name>
+                        <portal_section display_value="Created 2017-10-11 15:30:15">65b2ceb8dbf90f006f3cfbb9af9619e5</portal_section>
+                        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                        <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                        <sys_id>e5b2ceb8dbf90f006f3cfbb9af9619e6</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                        <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_title</name>
+                        <portal_section display_value="Created 2017-10-11 15:30:15">65b2ceb8dbf90f006f3cfbb9af9619e5</portal_section>
+                        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                        <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                        <sys_id>e5b2ceb8dbf90f006f3cfbb9af9619e8</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                        <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_align</name>
+                        <portal_section display_value="Created 2017-10-11 15:30:15">65b2ceb8dbf90f006f3cfbb9af9619e5</portal_section>
+                        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                        <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                        <sys_id>e9b2ceb8dbf90f006f3cfbb9af9619e5</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                        <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                        <value>left</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_border</name>
+                        <portal_section display_value="Created 2017-10-11 15:30:15">65b2ceb8dbf90f006f3cfbb9af9619e5</portal_section>
+                        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                        <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                        <sys_id>e9b2ceb8dbf90f006f3cfbb9af9619e6</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                        <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>view</name>
+                        <portal_section display_value="Created 2017-10-11 15:30:15">65b2ceb8dbf90f006f3cfbb9af9619e5</portal_section>
+                        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                        <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                        <sys_id>e9b2ceb8dbf90f006f3cfbb9af9619e7</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                        <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>publisher_widget</name>
+                        <portal_section display_value="Created 2017-10-11 15:30:15">65b2ceb8dbf90f006f3cfbb9af9619e5</portal_section>
+                        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                        <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                        <sys_id>e9b2ceb8dbf90f006f3cfbb9af9619e8</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                        <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>filter_indicator</name>
+                        <portal_section display_value="Created 2017-10-11 15:30:15">65b2ceb8dbf90f006f3cfbb9af9619e5</portal_section>
+                        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                        <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                        <sys_id>edb2ceb8dbf90f006f3cfbb9af9619e5</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                        <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2017-10-11 15:30:15">65b2ceb8dbf90f006f3cfbb9af9619e5</portal_section>
+                        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                        <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                        <sys_id>edb2ceb8dbf90f006f3cfbb9af9619e6</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                        <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                        <value>PRF Pending for review</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>subscriber_widget</name>
+                        <portal_section display_value="Created 2017-10-11 15:30:15">65b2ceb8dbf90f006f3cfbb9af9619e5</portal_section>
+                        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                        <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                        <sys_id>edb2ceb8dbf90f006f3cfbb9af9619e7</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                        <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2017-10-11 15:30:15">65b2ceb8dbf90f006f3cfbb9af9619e5</portal_section>
+                        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                        <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                        <sys_id>edb2ceb8dbf90f006f3cfbb9af9619e8</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                        <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                        <value>a990ca38dbf90f006f3cfbb9af9619de</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone2</dropzone>
+                <offset>1</offset>
+                <page display_value="HR Homepage">a990ca38dbf90f006f3cfbb9af9619de</page>
+                <summary/>
+                <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                <sys_id>65b2ceb8dbf90f006f3cfbb9af9619e9</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2017-10-11 15:30:15">65b2ceb8dbf90f006f3cfbb9af9619e9</portal_section>
+                        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                        <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                        <sys_id>65b2ceb8dbf90f006f3cfbb9af9619eb</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                        <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                        <value>3eaeb9b4dbf90f006f3cfbb9af9619f8</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_size</name>
+                        <portal_section display_value="Created 2017-10-11 15:30:15">65b2ceb8dbf90f006f3cfbb9af9619e9</portal_section>
+                        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                        <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                        <sys_id>e1b2ceb8dbf90f006f3cfbb9af9619ea</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                        <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                        <value>10pt</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>widget_height</name>
+                        <portal_section display_value="Created 2017-10-11 15:30:15">65b2ceb8dbf90f006f3cfbb9af9619e9</portal_section>
+                        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                        <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                        <sys_id>e1b2ceb8dbf90f006f3cfbb9af9619ec</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                        <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                        <value>250</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_align</name>
+                        <portal_section display_value="Created 2017-10-11 15:30:15">65b2ceb8dbf90f006f3cfbb9af9619e9</portal_section>
+                        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                        <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                        <sys_id>e5b2ceb8dbf90f006f3cfbb9af9619e9</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                        <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                        <value>left</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>real_time</name>
+                        <portal_section display_value="Created 2017-10-11 15:30:15">65b2ceb8dbf90f006f3cfbb9af9619e9</portal_section>
+                        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                        <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                        <sys_id>e5b2ceb8dbf90f006f3cfbb9af9619ea</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                        <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_title</name>
+                        <portal_section display_value="Created 2017-10-11 15:30:15">65b2ceb8dbf90f006f3cfbb9af9619e9</portal_section>
+                        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                        <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                        <sys_id>e5b2ceb8dbf90f006f3cfbb9af9619ec</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                        <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2017-10-11 15:30:15">65b2ceb8dbf90f006f3cfbb9af9619e9</portal_section>
+                        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                        <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                        <sys_id>e9b2ceb8dbf90f006f3cfbb9af9619e9</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                        <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderFilters</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_border</name>
+                        <portal_section display_value="Created 2017-10-11 15:30:15">65b2ceb8dbf90f006f3cfbb9af9619e9</portal_section>
+                        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                        <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                        <sys_id>e9b2ceb8dbf90f006f3cfbb9af9619ea</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                        <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>view</name>
+                        <portal_section display_value="Created 2017-10-11 15:30:15">65b2ceb8dbf90f006f3cfbb9af9619e9</portal_section>
+                        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                        <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                        <sys_id>e9b2ceb8dbf90f006f3cfbb9af9619eb</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                        <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>publisher_widget</name>
+                        <portal_section display_value="Created 2017-10-11 15:30:15">65b2ceb8dbf90f006f3cfbb9af9619e9</portal_section>
+                        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                        <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                        <sys_id>e9b2ceb8dbf90f006f3cfbb9af9619ec</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                        <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>filter_indicator</name>
+                        <portal_section display_value="Created 2017-10-11 15:30:15">65b2ceb8dbf90f006f3cfbb9af9619e9</portal_section>
+                        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                        <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                        <sys_id>edb2ceb8dbf90f006f3cfbb9af9619e9</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                        <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2017-10-11 15:30:15">65b2ceb8dbf90f006f3cfbb9af9619e9</portal_section>
+                        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                        <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                        <sys_id>edb2ceb8dbf90f006f3cfbb9af9619ea</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                        <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                        <value>PRF Posting</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>subscriber_widget</name>
+                        <portal_section display_value="Created 2017-10-11 15:30:15">65b2ceb8dbf90f006f3cfbb9af9619e9</portal_section>
+                        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                        <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                        <sys_id>edb2ceb8dbf90f006f3cfbb9af9619eb</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                        <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2017-10-11 15:30:15">65b2ceb8dbf90f006f3cfbb9af9619e9</portal_section>
+                        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                        <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                        <sys_id>edb2ceb8dbf90f006f3cfbb9af9619ec</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                        <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                        <value>a990ca38dbf90f006f3cfbb9af9619de</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone2</dropzone>
+                <offset>2</offset>
+                <page display_value="HR Homepage">a990ca38dbf90f006f3cfbb9af9619de</page>
+                <summary/>
+                <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                <sys_id>65b2ceb8dbf90f006f3cfbb9af9619ed</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2017-10-11 15:30:15">65b2ceb8dbf90f006f3cfbb9af9619ed</portal_section>
+                        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                        <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                        <sys_id>65b2ceb8dbf90f006f3cfbb9af9619ef</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                        <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                        <value>583eb9f4dbf90f006f3cfbb9af961914</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_size</name>
+                        <portal_section display_value="Created 2017-10-11 15:30:15">65b2ceb8dbf90f006f3cfbb9af9619ed</portal_section>
+                        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                        <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                        <sys_id>e1b2ceb8dbf90f006f3cfbb9af9619ee</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                        <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                        <value>10pt</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_title</name>
+                        <portal_section display_value="Created 2017-10-11 15:30:15">65b2ceb8dbf90f006f3cfbb9af9619ed</portal_section>
+                        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                        <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                        <sys_id>e1b2ceb8dbf90f006f3cfbb9af9619f0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                        <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2017-10-11 15:30:15">65b2ceb8dbf90f006f3cfbb9af9619ed</portal_section>
+                        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                        <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                        <sys_id>e5b2ceb8dbf90f006f3cfbb9af9619ed</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                        <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderFilters</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>real_time</name>
+                        <portal_section display_value="Created 2017-10-11 15:30:15">65b2ceb8dbf90f006f3cfbb9af9619ed</portal_section>
+                        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                        <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                        <sys_id>e5b2ceb8dbf90f006f3cfbb9af9619ee</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                        <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>publisher_widget</name>
+                        <portal_section display_value="Created 2017-10-11 15:30:15">65b2ceb8dbf90f006f3cfbb9af9619ed</portal_section>
+                        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                        <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                        <sys_id>e5b2ceb8dbf90f006f3cfbb9af9619f0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                        <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_align</name>
+                        <portal_section display_value="Created 2017-10-11 15:30:15">65b2ceb8dbf90f006f3cfbb9af9619ed</portal_section>
+                        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                        <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                        <sys_id>e9b2ceb8dbf90f006f3cfbb9af9619ed</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                        <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                        <value>left</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_border</name>
+                        <portal_section display_value="Created 2017-10-11 15:30:15">65b2ceb8dbf90f006f3cfbb9af9619ed</portal_section>
+                        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                        <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                        <sys_id>e9b2ceb8dbf90f006f3cfbb9af9619ee</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                        <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>view</name>
+                        <portal_section display_value="Created 2017-10-11 15:30:15">65b2ceb8dbf90f006f3cfbb9af9619ed</portal_section>
+                        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                        <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                        <sys_id>e9b2ceb8dbf90f006f3cfbb9af9619ef</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                        <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>widget_height</name>
+                        <portal_section display_value="Created 2017-10-11 15:30:15">65b2ceb8dbf90f006f3cfbb9af9619ed</portal_section>
+                        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                        <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                        <sys_id>e9b2ceb8dbf90f006f3cfbb9af9619f0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                        <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                        <value>250</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>filter_indicator</name>
+                        <portal_section display_value="Created 2017-10-11 15:30:15">65b2ceb8dbf90f006f3cfbb9af9619ed</portal_section>
+                        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                        <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                        <sys_id>edb2ceb8dbf90f006f3cfbb9af9619ed</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                        <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2017-10-11 15:30:15">65b2ceb8dbf90f006f3cfbb9af9619ed</portal_section>
+                        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                        <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                        <sys_id>edb2ceb8dbf90f006f3cfbb9af9619ee</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                        <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                        <value>PAF Pending for review</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>subscriber_widget</name>
+                        <portal_section display_value="Created 2017-10-11 15:30:15">65b2ceb8dbf90f006f3cfbb9af9619ed</portal_section>
+                        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                        <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                        <sys_id>edb2ceb8dbf90f006f3cfbb9af9619ef</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                        <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2017-10-11 15:30:15">65b2ceb8dbf90f006f3cfbb9af9619ed</portal_section>
+                        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                        <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                        <sys_id>edb2ceb8dbf90f006f3cfbb9af9619f0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                        <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                        <value>a990ca38dbf90f006f3cfbb9af9619de</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone0</dropzone>
+                <offset>0</offset>
+                <page display_value="HR Homepage">a990ca38dbf90f006f3cfbb9af9619de</page>
+                <summary/>
+                <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                <sys_id>69b2ceb8dbf90f006f3cfbb9af9619d9</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2017-10-11 15:30:15">69b2ceb8dbf90f006f3cfbb9af9619d9</portal_section>
+                        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                        <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                        <sys_id>69b2ceb8dbf90f006f3cfbb9af9619db</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                        <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                        <value>910a8aa30f6503003ed88b9ae1050e63</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>filter_indicator</name>
+                        <portal_section display_value="Created 2017-10-11 15:30:15">69b2ceb8dbf90f006f3cfbb9af9619d9</portal_section>
+                        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                        <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                        <sys_id>e1b2ceb8dbf90f006f3cfbb9af9619da</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                        <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2017-10-11 15:30:15">69b2ceb8dbf90f006f3cfbb9af9619d9</portal_section>
+                        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                        <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                        <sys_id>e1b2ceb8dbf90f006f3cfbb9af9619db</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                        <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                        <value>My Pending Approvals</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>subscriber_widget</name>
+                        <portal_section display_value="Created 2017-10-11 15:30:15">69b2ceb8dbf90f006f3cfbb9af9619d9</portal_section>
+                        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                        <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                        <sys_id>e1b2ceb8dbf90f006f3cfbb9af9619dc</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                        <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2017-10-11 15:30:15">69b2ceb8dbf90f006f3cfbb9af9619d9</portal_section>
+                        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                        <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                        <sys_id>e1b2ceb8dbf90f006f3cfbb9af9619dd</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                        <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                        <value>a990ca38dbf90f006f3cfbb9af9619de</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_size</name>
+                        <portal_section display_value="Created 2017-10-11 15:30:15">69b2ceb8dbf90f006f3cfbb9af9619d9</portal_section>
+                        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                        <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                        <sys_id>e5b2ceb8dbf90f006f3cfbb9af9619da</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                        <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                        <value>10pt</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_title</name>
+                        <portal_section display_value="Created 2017-10-11 15:30:15">69b2ceb8dbf90f006f3cfbb9af9619d9</portal_section>
+                        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                        <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                        <sys_id>e5b2ceb8dbf90f006f3cfbb9af9619dc</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                        <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_align</name>
+                        <portal_section display_value="Created 2017-10-11 15:30:15">69b2ceb8dbf90f006f3cfbb9af9619d9</portal_section>
+                        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                        <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                        <sys_id>e9b2ceb8dbf90f006f3cfbb9af9619d9</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                        <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                        <value>left</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>real_time</name>
+                        <portal_section display_value="Created 2017-10-11 15:30:15">69b2ceb8dbf90f006f3cfbb9af9619d9</portal_section>
+                        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                        <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                        <sys_id>e9b2ceb8dbf90f006f3cfbb9af9619da</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                        <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>publisher_widget</name>
+                        <portal_section display_value="Created 2017-10-11 15:30:15">69b2ceb8dbf90f006f3cfbb9af9619d9</portal_section>
+                        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                        <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                        <sys_id>e9b2ceb8dbf90f006f3cfbb9af9619dc</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                        <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2017-10-11 15:30:15">69b2ceb8dbf90f006f3cfbb9af9619d9</portal_section>
+                        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                        <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                        <sys_id>edb2ceb8dbf90f006f3cfbb9af9619d9</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                        <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderFilters</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_border</name>
+                        <portal_section display_value="Created 2017-10-11 15:30:15">69b2ceb8dbf90f006f3cfbb9af9619d9</portal_section>
+                        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                        <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                        <sys_id>edb2ceb8dbf90f006f3cfbb9af9619da</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                        <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>view</name>
+                        <portal_section display_value="Created 2017-10-11 15:30:15">69b2ceb8dbf90f006f3cfbb9af9619d9</portal_section>
+                        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                        <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                        <sys_id>edb2ceb8dbf90f006f3cfbb9af9619db</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                        <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>widget_height</name>
+                        <portal_section display_value="Created 2017-10-11 15:30:15">69b2ceb8dbf90f006f3cfbb9af9619d9</portal_section>
+                        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                        <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                        <sys_id>edb2ceb8dbf90f006f3cfbb9af9619dc</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                        <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                        <value>250</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone1</dropzone>
+                <offset>0</offset>
+                <page display_value="HR Homepage">a990ca38dbf90f006f3cfbb9af9619de</page>
+                <summary/>
+                <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                <sys_id>69b2ceb8dbf90f006f3cfbb9af9619dd</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2017-10-11 15:30:15">69b2ceb8dbf90f006f3cfbb9af9619dd</portal_section>
+                        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                        <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                        <sys_id>69b2ceb8dbf90f006f3cfbb9af9619df</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                        <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                        <value>399766530f8003003ed88b9ae1050e8b</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>filter_indicator</name>
+                        <portal_section display_value="Created 2017-10-11 15:30:15">69b2ceb8dbf90f006f3cfbb9af9619dd</portal_section>
+                        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                        <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                        <sys_id>e1b2ceb8dbf90f006f3cfbb9af9619de</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                        <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2017-10-11 15:30:15">69b2ceb8dbf90f006f3cfbb9af9619dd</portal_section>
+                        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                        <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                        <sys_id>e1b2ceb8dbf90f006f3cfbb9af9619df</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                        <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                        <value>Human Resources</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>widget_height</name>
+                        <portal_section display_value="Created 2017-10-11 15:30:15">69b2ceb8dbf90f006f3cfbb9af9619dd</portal_section>
+                        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                        <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                        <sys_id>e1b2ceb8dbf90f006f3cfbb9af9619e0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                        <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_size</name>
+                        <portal_section display_value="Created 2017-10-11 15:30:15">69b2ceb8dbf90f006f3cfbb9af9619dd</portal_section>
+                        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                        <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                        <sys_id>e5b2ceb8dbf90f006f3cfbb9af9619de</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                        <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                        <value>10pt</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_title</name>
+                        <portal_section display_value="Created 2017-10-11 15:30:15">69b2ceb8dbf90f006f3cfbb9af9619dd</portal_section>
+                        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                        <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                        <sys_id>e5b2ceb8dbf90f006f3cfbb9af9619e0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                        <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_align</name>
+                        <portal_section display_value="Created 2017-10-11 15:30:15">69b2ceb8dbf90f006f3cfbb9af9619dd</portal_section>
+                        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                        <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                        <sys_id>e9b2ceb8dbf90f006f3cfbb9af9619dd</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                        <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                        <value>left</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>real_time</name>
+                        <portal_section display_value="Created 2017-10-11 15:30:15">69b2ceb8dbf90f006f3cfbb9af9619dd</portal_section>
+                        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                        <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                        <sys_id>e9b2ceb8dbf90f006f3cfbb9af9619de</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                        <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>publisher_widget</name>
+                        <portal_section display_value="Created 2017-10-11 15:30:15">69b2ceb8dbf90f006f3cfbb9af9619dd</portal_section>
+                        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                        <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                        <sys_id>e9b2ceb8dbf90f006f3cfbb9af9619e0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                        <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2017-10-11 15:30:15">69b2ceb8dbf90f006f3cfbb9af9619dd</portal_section>
+                        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                        <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                        <sys_id>edb2ceb8dbf90f006f3cfbb9af9619dd</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                        <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderMenus</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_border</name>
+                        <portal_section display_value="Created 2017-10-11 15:30:15">69b2ceb8dbf90f006f3cfbb9af9619dd</portal_section>
+                        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                        <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                        <sys_id>edb2ceb8dbf90f006f3cfbb9af9619de</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                        <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>subscriber_widget</name>
+                        <portal_section display_value="Created 2017-10-11 15:30:15">69b2ceb8dbf90f006f3cfbb9af9619dd</portal_section>
+                        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                        <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                        <sys_id>edb2ceb8dbf90f006f3cfbb9af9619df</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                        <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2017-10-11 15:30:15">69b2ceb8dbf90f006f3cfbb9af9619dd</portal_section>
+                        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+                        <sys_created_on>2017-10-11 19:30:15</sys_created_on>
+                        <sys_id>edb2ceb8dbf90f006f3cfbb9af9619e0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+                        <sys_updated_on>2017-10-11 19:30:15</sys_updated_on>
+                        <value>a990ca38dbf90f006f3cfbb9af9619de</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal_page>
+</record_update>

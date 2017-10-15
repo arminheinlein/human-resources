@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" extends="x_conym_hr_hr_task" label="Position Requisition" max_length="40" name="x_conym_hr_prf" type="collection">
+        <element choice="1" default="new" label="Position requisition for" max_length="40" name="u_activity" type="choice">
+            <choice>
+                <element label="New (additional position)" sequence="1" value="new"/>
+                <element label="Backfill (due to LOA)" sequence="2" value="backfill_loa"/>
+                <element label="Backfill (existing position)" sequence="3" value="backfill"/>
+                <element label="Transfer/Modification (existing position)" sequence="4" value="modification"/>
+            </choice>
+        </element>
+        <element label="Budget available" max_length="40" name="u_budget_available" type="boolean"/>
+        <element label="Hours per week " max_length="3" name="u_hours_per_week" type="integer"/>
+        <element label="PeopleSoft Job ID" max_length="10" name="u_peoplesoft_job_id" type="integer"/>
+        <element choice="1" label="Position is" max_length="40" name="u_position_is" type="choice">
+            <choice>
+                <element label="Full Time" sequence="1" value="FT"/>
+                <element label="Part Time" sequence="2" value="PT"/>
+            </choice>
+        </element>
+        <element label="Return" max_length="40" name="u_return" type="glide_date"/>
+        <element label="Skip VCB review" max_length="40" name="u_skip_vcb_review" type="boolean"/>
+    </element>
+</database>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" extends="x_conym_hr_hr_task" label="Personnel Action" max_length="40" name="x_conym_hr_paf" type="collection">
+        <element choice="1" label="Appointment" max_length="40" name="u_appointment" type="choice">
+            <choice>
+                <element label="Additional Position" sequence="1" value="add_position"/>
+                <element label="Replacement" sequence="2" value="replacement"/>
+            </choice>
+        </element>
+        <element label="Effective" max_length="40" name="u_effective" type="glide_date"/>
+        <element label="Final agrred salary" max_length="10" name="u_final_salary" type="currency"/>
+        <element label="First Name" max_length="32" name="u_first_name" type="string"/>
+        <element label="From department" max_length="32" name="u_from_department" reference="cmn_department" type="reference"/>
+        <element label="From hours per week" max_length="3" name="u_from_hours_per_week" type="integer"/>
+        <element label="From job no." max_length="20" name="u_from_job_no" type="string"/>
+        <element choice="1" label="From position is" max_length="40" name="u_from_position_is" type="choice">
+            <choice>
+                <element label="Full Time" sequence="1" value="FT"/>
+                <element label="Part Time" sequence="2" value="PT"/>
+                <element label="Temp" sequence="3" value="temp"/>
+                <element label="Summer" sequence="4" value="summer"/>
+                <element label="Per Diem" sequence="5" value="per_diem"/>
+                <element label="Hourly" sequence="6" value="hourly"/>
+                <element label="On Call" sequence="7" value="on_call"/>
+            </choice>
+        </element>
+        <element label="From reimb. code" max_length="20" name="u_from_reimb_code" type="string"/>
+        <element label="From salary" max_length="10" name="u_from_salary" type="currency"/>
+        <element label="Last name" max_length="32" name="u_last_name" type="string"/>
+        <element label="Name of replaced employee" max_length="32" name="u_name_of_replaced_employee" reference="sys_user" type="reference"/>
+        <element choice="1" label="Personnel action for" max_length="40" name="u_personnel_action_for" type="choice">
+            <choice>
+                <element label="Appointment" sequence="1" value="appointment"/>
+                <element label="Transfer" sequence="2" value="transfer"/>
+                <element label="Demotion" sequence="3" value="demotion"/>
+                <element label="Promotion" sequence="4" value="promotion"/>
+                <element label="Salary" sequence="5" value="salary"/>
+            </choice>
+        </element>
+        <element label="Position Requisition" max_length="32" name="u_prf_number" read_only="true" reference="x_conym_hr_prf" type="reference"/>
+        <element label="Remarks" max_length="4000" name="u_remarks" type="string"/>
+        <element label="To department" max_length="32" name="u_to_department" reference="cmn_department" type="reference"/>
+        <element label="To hours per week" max_length="3" name="u_to_hours_per_week" type="integer"/>
+        <element label="To job no." max_length="20" name="u_to_job_no" type="string"/>
+        <element choice="1" label="To position is" max_length="40" name="u_to_position_is" type="choice">
+            <choice>
+                <element label="Full Time" sequence="1" value="FT"/>
+                <element label="Part Time" sequence="2" value="PT"/>
+                <element label="Temp" sequence="3" value="temp"/>
+                <element label="Summer" sequence="4" value="summer"/>
+                <element label="Per Diem" sequence="5" value="per_diem"/>
+                <element label="On Call" sequence="6" value="on_call"/>
+                <element label="Hourly" sequence="7" value="hourly"/>
+            </choice>
+        </element>
+        <element label="To reimb code" max_length="20" name="u_to_reimb_code" type="string"/>
+        <element label="To salary" max_length="10" name="u_to_salary" type="currency"/>
+        <index name="index">
+            <element name="u_name_of_replaced_employee"/>
+        </index>
+        <index name="index2">
+            <element name="u_prf_number"/>
+        </index>
+        <index name="index3">
+            <element name="u_to_department"/>
+        </index>
+        <index name="index4">
+            <element name="u_from_department"/>
+        </index>
+    </element>
+</database>

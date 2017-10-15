@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="HR Task (Base Class)" max_length="40" name="x_conym_hr_hr_task" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Number" max_length="40" name="number" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Assigned to" max_length="32" name="u_assigned_to" reference="sys_user" type="reference"/>
+        <element label="Assignment group" max_length="32" name="u_assignment_group" reference="sys_user_group" type="reference"/>
+        <element label="Building access" max_length="4000" name="u_building_access" reference="x_conym_hr_choice" reference_qual="u_element=building_access^u_inactive=false^EQ" reference_qual_condition="u_element=building_access^u_inactive=false^EQ" type="glide_list"/>
+        <element label="Business justification" max_length="4000" name="u_business_justification" type="string"/>
+        <element label="Corporate Title" max_length="64" name="u_corporate_title" type="string"/>
+        <element label="Department" max_length="32" name="u_department" reference="cmn_department" type="reference"/>
+        <element label="Employee (current only)" max_length="32" name="u_employee" reference="sys_user" type="reference"/>
+        <element label="Entitlements" max_length="4000" name="u_entitlements" reference="x_conym_hr_choice" reference_qual="u_element=entitlements^u_inactive=false^EQ" reference_qual_condition="u_element=entitlements^u_inactive=false^EQ" type="glide_list"/>
+        <element label="Functional title" max_length="64" name="u_functional_title" type="string"/>
+        <element default="javascript:gs.getUserID();" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Hiring Manager" max_length="32" name="u_hiring_manager" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element label="Incumbent" max_length="32" name="u_incumbent" reference="sys_user" type="reference"/>
+        <element label="Job description" max_length="32" name="u_job_description" reference="x_conym_hr_jd" reference_qual="u_job_description_approved=true^EQ" reference_qual_condition="u_job_description_approved=true^EQ" type="reference"/>
+        <element label="Location" max_length="32" name="u_location" reference="cmn_location" type="reference"/>
+        <element label="Maildrop" max_length="32" name="u_maildrop" reference="x_conym_hr_position" type="reference"/>
+        <element label="Employee's office/cubicle" max_length="10" name="u_office_cubicle" type="string"/>
+        <element choice="1" label="Regular/Temporary" max_length="40" name="u_reg_temp" type="choice">
+            <choice>
+                <element label="Regular" sequence="1" value="regular"/>
+                <element label="Temporary" sequence="2" value="temporary"/>
+            </choice>
+        </element>
+        <element choice="1" label="Salary is " max_length="40" name="u_salary_is" type="choice">
+            <choice>
+                <element label="Per Hour" sequence="1" value="per_hour"/>
+                <element label="Per Diem" sequence="2" value="per_diem"/>
+                <element label="Per Week" sequence="3" value="per_week"/>
+                <element label="Per Annum" sequence="4" value="per_annum"/>
+            </choice>
+        </element>
+        <element label="Salary not to exceed" max_length="10" name="u_salary_not_to_exceed" type="currency"/>
+        <element choice="1" default="new" label="Stage" max_length="40" name="u_stage" type="workflow">
+            <choice>
+                <element label="New" sequence="10" value="new"/>
+                <element label="Request" sequence="20" value="request"/>
+                <element label="Division Manager Approval" sequence="25" value="deprt_approval"/>
+                <element label="Review" sequence="30" value="review"/>
+                <element label="Approval" sequence="40" value="approval"/>
+                <element label="Posting" sequence="50" value="posting"/>
+                <element label="Closed Complete" sequence="80" value="completed"/>
+                <element label="Rejected" sequence="99" value="rejected"/>
+            </choice>
+        </element>
+        <element choice="1" default="10" label="State" max_length="40" name="u_state" type="choice">
+            <choice>
+                <element label="Finalize PAF" value="2"/>
+                <element label="In progress" value="1"/>
+                <element label="Pending" sequence="0" value="0"/>
+                <element label="Request Opened" sequence="10" value="10"/>
+                <element label="Waiting for Division Head approval" sequence="20" value="20"/>
+                <element label="HR Review" sequence="30" value="30"/>
+                <element label="Finance Review" sequence="40" value="40"/>
+                <element label="Pre VCB approval requested" sequence="50" value="50"/>
+                <element label="VCB approval requested" sequence="60" value="60"/>
+                <element label="Posting" sequence="70" value="70"/>
+                <element label="Closed" sequence="100" value="100"/>
+                <element label="Cancelled" sequence="998" value="998"/>
+                <element label="Rejected" sequence="999" value="999"/>
+            </choice>
+        </element>
+        <element label="Supervisor" max_length="32" name="u_supervisor" reference="sys_user" type="reference"/>
+        <element label="Termination date" max_length="40" name="u_termination_date" type="glide_date"/>
+        <element label="Work notes" max_length="4000" name="u_work_notes" type="journal_input"/>
+        <index name="index">
+            <element name="u_assigned_to"/>
+        </index>
+        <index name="index2">
+            <element name="u_employee"/>
+        </index>
+        <index name="index3">
+            <element name="u_maildrop"/>
+        </index>
+        <index name="index4">
+            <element name="u_department"/>
+        </index>
+        <index name="index5">
+            <element name="u_incumbent"/>
+        </index>
+        <index name="index6">
+            <element name="u_job_description"/>
+        </index>
+        <index name="index7">
+            <element name="u_supervisor"/>
+        </index>
+        <index name="index8">
+            <element name="u_assignment_group"/>
+        </index>
+        <index name="index9">
+            <element name="u_location"/>
+        </index>
+        <index name="index10">
+            <element name="u_hiring_manager"/>
+        </index>
+    </element>
+</database>

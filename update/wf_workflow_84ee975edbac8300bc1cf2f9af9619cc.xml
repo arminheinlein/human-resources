@@ -1,0 +1,1682 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="wf_workflow_version">
+    <wf_workflow_version action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_stages>{"ends":["15ab0cccdbe5c7407d28fafc0f961937"],"subflows":[],"stages":{"0dabc8ccdbe5c7407d28fafc0f961947":{"duration":"","stageId":"0dabc8ccdbe5c7407d28fafc0f961947","order":400,"name":"Completed","value":"completed"},"89abc8ccdbe5c7407d28fafc0f961947":{"duration":"","stageId":"89abc8ccdbe5c7407d28fafc0f961947","order":300,"name":"Approval","value":"approval"},"c5abc8ccdbe5c7407d28fafc0f961947":{"duration":"","stageId":"c5abc8ccdbe5c7407d28fafc0f961947","order":200,"name":"In progress","value":"in_progress"}},"activities":{"d5ab0cccdbe5c7407d28fafc0f96192e":"89abc8ccdbe5c7407d28fafc0f961947","d5ab0cccdbe5c7407d28fafc0f961936":"0dabc8ccdbe5c7407d28fafc0f961947","c9ab0cccdbe5c7407d28fafc0f96192a":"89abc8ccdbe5c7407d28fafc0f961947","11ab0cccdbe5c7407d28fafc0f96192d":"c5abc8ccdbe5c7407d28fafc0f961947"}}</activity_stages>
+        <after_business_rules>false</after_business_rules>
+        <checked_out/>
+        <checked_out_by/>
+        <column_renderer display_value="Workflow-driven">a56213111b030100adca1e094f0713ac</column_renderer>
+        <condition/>
+        <condition_type>run_match</condition_type>
+        <description/>
+        <expected_sequences>8dab0cccdbe5c7407d28fafc0f96192b,11ab0cccdbe5c7407d28fafc0f96192d,d5ab0cccdbe5c7407d28fafc0f96192e,c9ab0cccdbe5c7407d28fafc0f96192a,45abc8ccdbe5c7407d28fafc0f961948,d5ab0cccdbe5c7407d28fafc0f961936,15ab0cccdbe5c7407d28fafc0f961937</expected_sequences>
+        <expected_time>1970-01-01 14:00:00</expected_time>
+        <expected_time_type/>
+        <full_sequences>8dab0cccdbe5c7407d28fafc0f96192b,11ab0cccdbe5c7407d28fafc0f96192d,d5ab0cccdbe5c7407d28fafc0f96192e,c9ab0cccdbe5c7407d28fafc0f96192a,d1ab0cccdbe5c7407d28fafc0f961935,45abc8ccdbe5c7407d28fafc0f961948,ddab0cccdbe5c7407d28fafc0f961933,d5ab0cccdbe5c7407d28fafc0f961936,15ab0cccdbe5c7407d28fafc0f961937</full_sequences>
+        <journal/>
+        <max_activity_count>100</max_activity_count>
+        <name>MHP HR Job Description</name>
+        <not_cacheable>false</not_cacheable>
+        <on_cancel><![CDATA[// This script executes if the workflow is cancelled.// The global variable context_sys_id contains the sys_id of the cancelled workflow context.]]></on_cancel>
+        <order>100</order>
+        <pin_type>set_by_activity</pin_type>
+        <published>true</published>
+        <relative_duration/>
+        <requires_ert>true</requires_ert>
+        <run_multiple>false</run_multiple>
+        <schedule/>
+        <stage_field/>
+        <stage_order>computed</stage_order>
+        <start display_value="Begin">8dab0cccdbe5c7407d28fafc0f96192b</start>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>89abc8ccdbe5c7407d28fafc0f961945</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-10-10 20:17:36</sys_updated_on>
+        <table>x_conym_hr_jd</table>
+        <timezone/>
+        <validated>true</validated>
+        <workflow display_value="MHP HR Job Description">84ee975edbac8300bc1cf2f9af9619cc</workflow>
+    </wf_workflow_version>
+    <wf_workflow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <description/>
+        <name>MHP HR Job Description</name>
+        <preview/>
+        <sys_class_name>wf_workflow</sys_class_name>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-08-15 14:45:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>84ee975edbac8300bc1cf2f9af9619cc</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>MHP HR Job Description</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Human Resources Department" source="x_conym_hr">28d216dedb40c740bc1cf2f9af9619f9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Human Resources Department">28d216dedb40c740bc1cf2f9af9619f9</sys_scope>
+        <sys_update_name>wf_workflow_84ee975edbac8300bc1cf2f9af9619cc</sys_update_name>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-08-15 14:47:09</sys_updated_on>
+        <table>x_conym_hr_jd</table>
+        <template>false</template>
+        <vars/>
+    </wf_workflow>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Approval</name>
+        <ola>1970-01-01 00:00:00</ola>
+        <order>300</order>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>89abc8ccdbe5c7407d28fafc0f961947</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <value>approval</value>
+        <workflow_version display_value="MHP HR Job Description">89abc8ccdbe5c7407d28fafc0f961945</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Completed</name>
+        <ola>1970-01-01 00:00:00</ola>
+        <order>400</order>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>0dabc8ccdbe5c7407d28fafc0f961947</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <value>completed</value>
+        <workflow_version display_value="MHP HR Job Description">89abc8ccdbe5c7407d28fafc0f961945</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>In progress</name>
+        <ola>1970-01-01 00:00:00</ola>
+        <order>200</order>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>c5abc8ccdbe5c7407d28fafc0f961947</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <value>in_progress</value>
+        <workflow_version display_value="MHP HR Job Description">89abc8ccdbe5c7407d28fafc0f961945</workflow_version>
+    </wf_stage>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Begin">c7a5e32c0a0a0b3a002377c24ed8ea76</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>1</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>Begin</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>8dab0cccdbe5c7407d28fafc0f96192b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="MHP HR Job Description">89abc8ccdbe5c7407d28fafc0f961945</workflow_version>
+        <x>5</x>
+        <y>0</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=8dab0cccdbe5c7407d28fafc0f96192b"/>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Begin">8dab0cccdbe5c7407d28fafc0f96192b</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>19ab0cccdbe5c7407d28fafc0f96192c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Create Event">9f680b92c0a801640026553f665b429f</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>15</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Create approval email</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>45abc8ccdbe5c7407d28fafc0f961948</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="MHP HR Job Description">89abc8ccdbe5c7407d28fafc0f961945</workflow_version>
+        <x>410</x>
+        <y>1</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=45abc8ccdbe5c7407d28fafc0f961948"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>45abc8ccdbe5c7407d28fafc0f961948</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>49ab0cccdbe5c7407d28fafc0f961929</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <value>(function() {&#13;
+	// return the value to use for Parameter 2&#13;
+	return gs.getUserID();&#13;
+}());</value>
+        <variable display_value="">c35dd3ef0a0a0ba96248a70947e35325</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>45abc8ccdbe5c7407d28fafc0f961948</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>85ab0cccdbe5c7407d28fafc0f961929</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <value>(function() {&#13;
+	// return the value to use for Parameter 1&#13;
+	return gs.getUserID();&#13;
+}());</value>
+        <variable display_value="">c35dd0310a0a0ba96248a70936d276b3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>45abc8ccdbe5c7407d28fafc0f961948</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>8dabc8ccdbe5c7407d28fafc0f961948</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <value>2c68d8b9db99c340bc1cf2f9af96196b</value>
+        <variable display_value="">c35dcc7a0a0a0ba96248a70926fa68b5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>45abc8ccdbe5c7407d28fafc0f961948</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>8dabc8ccdbe5c7407d28fafc0f961948</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <value>2c68d8b9db99c340bc1cf2f9af96196b</value>
+        <variable display_value="">c35dcc7a0a0a0ba96248a70926fa68b5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>45abc8ccdbe5c7407d28fafc0f961948</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>85ab0cccdbe5c7407d28fafc0f961929</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <value>(function() {&#13;
+	// return the value to use for Parameter 1&#13;
+	return gs.getUserID();&#13;
+}());</value>
+        <variable display_value="">c35dd0310a0a0ba96248a70936d276b3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>45abc8ccdbe5c7407d28fafc0f961948</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>49ab0cccdbe5c7407d28fafc0f961929</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <value>(function() {&#13;
+	// return the value to use for Parameter 2&#13;
+	return gs.getUserID();&#13;
+}());</value>
+        <variable display_value="">c35dd3ef0a0a0ba96248a70947e35325</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Create approval email">45abc8ccdbe5c7407d28fafc0f961948</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>01ab0cccdbe5c7407d28fafc0f96192a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Create Event">9f680b92c0a801640026553f665b429f</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>16</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Create rejection email</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>ddab0cccdbe5c7407d28fafc0f961933</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="MHP HR Job Description">89abc8ccdbe5c7407d28fafc0f961945</workflow_version>
+        <x>134</x>
+        <y>405</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=ddab0cccdbe5c7407d28fafc0f961933"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ddab0cccdbe5c7407d28fafc0f961933</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>15ab0cccdbe5c7407d28fafc0f961934</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <value>(function() {&#13;
+	// return the value to use for Parameter 1&#13;
+	return gs.getUserID();&#13;
+}());</value>
+        <variable display_value="">c35dd0310a0a0ba96248a70936d276b3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ddab0cccdbe5c7407d28fafc0f961933</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>51ab0cccdbe5c7407d28fafc0f961934</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <value>cea8a535dbd98b006f3cfbb9af9619bc</value>
+        <variable display_value="">c35dcc7a0a0a0ba96248a70926fa68b5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ddab0cccdbe5c7407d28fafc0f961933</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>d5ab0cccdbe5c7407d28fafc0f961934</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <value>(function() {&#13;
+	// return the value to use for Parameter 2&#13;
+	return gs.getUserID();&#13;
+}());</value>
+        <variable display_value="">c35dd3ef0a0a0ba96248a70947e35325</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ddab0cccdbe5c7407d28fafc0f961933</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>51ab0cccdbe5c7407d28fafc0f961934</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <value>cea8a535dbd98b006f3cfbb9af9619bc</value>
+        <variable display_value="">c35dcc7a0a0a0ba96248a70926fa68b5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ddab0cccdbe5c7407d28fafc0f961933</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>15ab0cccdbe5c7407d28fafc0f961934</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <value>(function() {&#13;
+	// return the value to use for Parameter 1&#13;
+	return gs.getUserID();&#13;
+}());</value>
+        <variable display_value="">c35dd0310a0a0ba96248a70936d276b3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ddab0cccdbe5c7407d28fafc0f961933</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>d5ab0cccdbe5c7407d28fafc0f961934</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <value>(function() {&#13;
+	// return the value to use for Parameter 2&#13;
+	return gs.getUserID();&#13;
+}());</value>
+        <variable display_value="">c35dd3ef0a0a0ba96248a70947e35325</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Create rejection email">ddab0cccdbe5c7407d28fafc0f961933</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>1dab0cccdbe5c7407d28fafc0f961934</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="End">c7a66f7d0a0a0b3a004544a6d2f14076</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>2</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>End</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>15ab0cccdbe5c7407d28fafc0f961937</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="MHP HR Job Description">89abc8ccdbe5c7407d28fafc0f961945</workflow_version>
+        <x>674</x>
+        <y>92</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=15ab0cccdbe5c7407d28fafc0f961937"/>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Approval - User">35433da80a0a029a0028c639a1e51eb4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>4</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>HR manager approvals</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage display_value="Approval">89abc8ccdbe5c7407d28fafc0f961947</stage>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>d5ab0cccdbe5c7407d28fafc0f96192e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="MHP HR Job Description">89abc8ccdbe5c7407d28fafc0f961945</workflow_version>
+        <x>47</x>
+        <y>182</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=d5ab0cccdbe5c7407d28fafc0f96192e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5ab0cccdbe5c7407d28fafc0f96192e</document_key>
+        <order>2000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>11ab0cccdbe5c7407d28fafc0f96192f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">02ca01820a0a0b261cf923fb95f5e1d0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5ab0cccdbe5c7407d28fafc0f96192e</document_key>
+        <order>104</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>11ab0cccdbe5c7407d28fafc0f961932</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <value/>
+        <variable display_value="">e37a96e80a0004f978b47d2d6c5e0b22</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5ab0cccdbe5c7407d28fafc0f96192e</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>15ab0cccdbe5c7407d28fafc0f961931</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <value/>
+        <variable display_value="">4485eef70a6a803f6bc4bafa9e999640</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5ab0cccdbe5c7407d28fafc0f96192e</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>19ab0cccdbe5c7407d28fafc0f961930</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <value>e0357eefdb676200bc1cf2f9af961912</value>
+        <variable display_value="">c35e4cc40a0a0ba96248a7098ec9cb06</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5ab0cccdbe5c7407d28fafc0f96192e</document_key>
+        <order>101</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>1dab0cccdbe5c7407d28fafc0f96192f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <value>HR Job Description</value>
+        <variable display_value="">e846198f0a0004f91fba434a514ba8b8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5ab0cccdbe5c7407d28fafc0f96192e</document_key>
+        <order>115</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>1dab0cccdbe5c7407d28fafc0f961932</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <value/>
+        <variable display_value="">a76680b9c0a8006661b107d0f21fae67</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5ab0cccdbe5c7407d28fafc0f96192e</document_key>
+        <order>1110</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>51ab0cccdbe5c7407d28fafc0f961931</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <value/>
+        <variable display_value="">a769a182c0a8006629db7fa3fc2a863d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5ab0cccdbe5c7407d28fafc0f96192e</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>55ab0cccdbe5c7407d28fafc0f961930</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <value>// Set 'answer' to the number of seconds this timer should wait&#13;
+answer = 0;</value>
+        <variable display_value="">a782cde9c0a8006608f39abdd85c8395</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5ab0cccdbe5c7407d28fafc0f96192e</document_key>
+        <order>1330</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>59ab0cccdbe5c7407d28fafc0f96192f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <value/>
+        <variable display_value="">02c618170a0a0b26436f5c2c9f7a3901</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5ab0cccdbe5c7407d28fafc0f96192e</document_key>
+        <order>2050</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>59ab0cccdbe5c7407d28fafc0f961932</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of user ids and/or group ids or an array of user/group ids to add as approvers.&#13;
+//&#13;
+// For example:&#13;
+//       answer = [];&#13;
+//       answer.push('id1');&#13;
+//       answer.push('id2');&#13;
+</value>
+        <variable display_value="">c35e582f0a0a0ba96248a70985207e63</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5ab0cccdbe5c7407d28fafc0f96192e</document_key>
+        <order>110</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>5dab0cccdbe5c7407d28fafc0f96192e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <value/>
+        <variable display_value="">a77191a4c0a800662b403f7dff5f1bbd</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5ab0cccdbe5c7407d28fafc0f96192e</document_key>
+        <order>900</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>5dab0cccdbe5c7407d28fafc0f961931</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <value>08fcd0830a0a0b2600079f56b1adb9ae</value>
+        <variable display_value="">a7754e91c0a800664938d0ef6d2664d7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5ab0cccdbe5c7407d28fafc0f96192e</document_key>
+        <order>120</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>91ab0cccdbe5c7407d28fafc0f961930</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <value/>
+        <variable display_value="">a77903a7c0a8006641af7c9b1d34444e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5ab0cccdbe5c7407d28fafc0f96192e</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>95ab0cccdbe5c7407d28fafc0f96192f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <value/>
+        <variable display_value="">a775f59ac0a8006665d72362ae687035</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5ab0cccdbe5c7407d28fafc0f96192e</document_key>
+        <order>900</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>95ab0cccdbe5c7407d28fafc0f961932</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <value/>
+        <variable display_value="">a774138dc0a80066000be7af20961c7d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5ab0cccdbe5c7407d28fafc0f96192e</document_key>
+        <order>1150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>99ab0cccdbe5c7407d28fafc0f961931</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <value/>
+        <variable display_value="">a76b8c6ec0a800664bb14d5d8b9cd7c4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5ab0cccdbe5c7407d28fafc0f96192e</document_key>
+        <order>310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>9dab0cccdbe5c7407d28fafc0f961930</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <value>reject</value>
+        <variable display_value="">502163410a6a803f0356332b24dc7945</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5ab0cccdbe5c7407d28fafc0f96192e</document_key>
+        <order>1370</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>d1ab0cccdbe5c7407d28fafc0f96192f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <value>// Set the variable 'answer' to '', 'approved' or 'rejected' to indicate the approval status for this approval.  When called, the following information is available:&#13;
+//&#13;
+//    counts.total = total number of users that are part of this approval&#13;
+//    counts.approved = # of users that approved so far&#13;
+//    counts.rejected = # of users that rejected so far&#13;
+//    counts.requested = # of users that are pending approval&#13;
+//    counts.not_requested = # of users that are not pending approval&#13;
+//    counts.not_required = # of users that approval is not required&#13;
+//&#13;
+</value>
+        <variable display_value="">02c86d780a0a0b261e6a356bc893d348</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5ab0cccdbe5c7407d28fafc0f96192e</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>d1ab0cccdbe5c7407d28fafc0f961932</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <value>any</value>
+        <variable display_value="">c35e5bdd0a0a0ba96248a709f495c9ae</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5ab0cccdbe5c7407d28fafc0f96192e</document_key>
+        <order>1120</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>d5ab0cccdbe5c7407d28fafc0f961931</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="">a76c6257c0a8006645cff43883470e64</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5ab0cccdbe5c7407d28fafc0f96192e</document_key>
+        <order>330</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>d9ab0cccdbe5c7407d28fafc0f961930</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <value>approval_history</value>
+        <variable display_value="">e863e3b80a0004f911d67787e77e0f16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5ab0cccdbe5c7407d28fafc0f96192e</document_key>
+        <order>103</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>ddab0cccdbe5c7407d28fafc0f96192f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <value/>
+        <variable display_value="">e37b77ac0a0004f973283ad13b341c5b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5ab0cccdbe5c7407d28fafc0f96192e</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>ddab0cccdbe5c7407d28fafc0f961932</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <value/>
+        <variable display_value="">a7781cb6c0a80066147dc7a5244d5d16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5ab0cccdbe5c7407d28fafc0f96192e</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>15ab0cccdbe5c7407d28fafc0f961931</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <value/>
+        <variable display_value="">4485eef70a6a803f6bc4bafa9e999640</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5ab0cccdbe5c7407d28fafc0f96192e</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>d1ab0cccdbe5c7407d28fafc0f961932</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <value>any</value>
+        <variable display_value="">c35e5bdd0a0a0ba96248a709f495c9ae</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5ab0cccdbe5c7407d28fafc0f96192e</document_key>
+        <order>101</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>1dab0cccdbe5c7407d28fafc0f96192f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <value>HR Job Description</value>
+        <variable display_value="">e846198f0a0004f91fba434a514ba8b8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5ab0cccdbe5c7407d28fafc0f96192e</document_key>
+        <order>103</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>ddab0cccdbe5c7407d28fafc0f96192f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <value/>
+        <variable display_value="">e37b77ac0a0004f973283ad13b341c5b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5ab0cccdbe5c7407d28fafc0f96192e</document_key>
+        <order>104</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>11ab0cccdbe5c7407d28fafc0f961932</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <value/>
+        <variable display_value="">e37a96e80a0004f978b47d2d6c5e0b22</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5ab0cccdbe5c7407d28fafc0f96192e</document_key>
+        <order>110</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>5dab0cccdbe5c7407d28fafc0f96192e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <value/>
+        <variable display_value="">a77191a4c0a800662b403f7dff5f1bbd</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5ab0cccdbe5c7407d28fafc0f96192e</document_key>
+        <order>115</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>1dab0cccdbe5c7407d28fafc0f961932</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <value/>
+        <variable display_value="">a76680b9c0a8006661b107d0f21fae67</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5ab0cccdbe5c7407d28fafc0f96192e</document_key>
+        <order>120</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>91ab0cccdbe5c7407d28fafc0f961930</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <value/>
+        <variable display_value="">a77903a7c0a8006641af7c9b1d34444e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5ab0cccdbe5c7407d28fafc0f96192e</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>19ab0cccdbe5c7407d28fafc0f961930</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <value>e0357eefdb676200bc1cf2f9af961912</value>
+        <variable display_value="">c35e4cc40a0a0ba96248a7098ec9cb06</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5ab0cccdbe5c7407d28fafc0f96192e</document_key>
+        <order>310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>9dab0cccdbe5c7407d28fafc0f961930</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <value>reject</value>
+        <variable display_value="">502163410a6a803f0356332b24dc7945</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5ab0cccdbe5c7407d28fafc0f96192e</document_key>
+        <order>330</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>d9ab0cccdbe5c7407d28fafc0f961930</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <value>approval_history</value>
+        <variable display_value="">e863e3b80a0004f911d67787e77e0f16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5ab0cccdbe5c7407d28fafc0f96192e</document_key>
+        <order>900</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>5dab0cccdbe5c7407d28fafc0f961931</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <value>08fcd0830a0a0b2600079f56b1adb9ae</value>
+        <variable display_value="">a7754e91c0a800664938d0ef6d2664d7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5ab0cccdbe5c7407d28fafc0f96192e</document_key>
+        <order>900</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>95ab0cccdbe5c7407d28fafc0f961932</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <value/>
+        <variable display_value="">a774138dc0a80066000be7af20961c7d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5ab0cccdbe5c7407d28fafc0f96192e</document_key>
+        <order>1110</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>51ab0cccdbe5c7407d28fafc0f961931</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <value/>
+        <variable display_value="">a769a182c0a8006629db7fa3fc2a863d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5ab0cccdbe5c7407d28fafc0f96192e</document_key>
+        <order>1120</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>d5ab0cccdbe5c7407d28fafc0f961931</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="">a76c6257c0a8006645cff43883470e64</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5ab0cccdbe5c7407d28fafc0f96192e</document_key>
+        <order>1150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>99ab0cccdbe5c7407d28fafc0f961931</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <value/>
+        <variable display_value="">a76b8c6ec0a800664bb14d5d8b9cd7c4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5ab0cccdbe5c7407d28fafc0f96192e</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>95ab0cccdbe5c7407d28fafc0f96192f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <value/>
+        <variable display_value="">a775f59ac0a8006665d72362ae687035</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5ab0cccdbe5c7407d28fafc0f96192e</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>ddab0cccdbe5c7407d28fafc0f961932</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <value/>
+        <variable display_value="">a7781cb6c0a80066147dc7a5244d5d16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5ab0cccdbe5c7407d28fafc0f96192e</document_key>
+        <order>1330</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>59ab0cccdbe5c7407d28fafc0f96192f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <value/>
+        <variable display_value="">02c618170a0a0b26436f5c2c9f7a3901</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5ab0cccdbe5c7407d28fafc0f96192e</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>55ab0cccdbe5c7407d28fafc0f961930</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <value>// Set 'answer' to the number of seconds this timer should wait&#13;
+answer = 0;</value>
+        <variable display_value="">a782cde9c0a8006608f39abdd85c8395</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5ab0cccdbe5c7407d28fafc0f96192e</document_key>
+        <order>1370</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>d1ab0cccdbe5c7407d28fafc0f96192f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <value>// Set the variable 'answer' to '', 'approved' or 'rejected' to indicate the approval status for this approval.  When called, the following information is available:&#13;
+//&#13;
+//    counts.total = total number of users that are part of this approval&#13;
+//    counts.approved = # of users that approved so far&#13;
+//    counts.rejected = # of users that rejected so far&#13;
+//    counts.requested = # of users that are pending approval&#13;
+//    counts.not_requested = # of users that are not pending approval&#13;
+//    counts.not_required = # of users that approval is not required&#13;
+//&#13;
+</value>
+        <variable display_value="">02c86d780a0a0b261e6a356bc893d348</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5ab0cccdbe5c7407d28fafc0f96192e</document_key>
+        <order>2000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>11ab0cccdbe5c7407d28fafc0f96192f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">02ca01820a0a0b261cf923fb95f5e1d0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5ab0cccdbe5c7407d28fafc0f96192e</document_key>
+        <order>2050</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>59ab0cccdbe5c7407d28fafc0f961932</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of user ids and/or group ids or an array of user/group ids to add as approvers.&#13;
+//&#13;
+// For example:&#13;
+//       answer = [];&#13;
+//       answer.push('id1');&#13;
+//       answer.push('id2');&#13;
+</value>
+        <variable display_value="">c35e582f0a0a0ba96248a70985207e63</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="HR manager approvals">d5ab0cccdbe5c7407d28fafc0f96192e</activity>
+        <condition>activity.result == 'approved' || activity.result == 'skipped'</condition>
+        <condition_default display_value="Approved">586e1fa60a0a0b5c008121ab894f2b06</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Approved</name>
+        <order>1</order>
+        <short_description>Approval request was approved</short_description>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>95ab0cccdbe5c7407d28fafc0f961933</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="HR manager approvals">d5ab0cccdbe5c7407d28fafc0f96192e</activity>
+        <condition>activity.result == 'rejected'</condition>
+        <condition_default display_value="Rejected">586e4ef60a0a0b5c00440b56c014c8a5</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Rejected</name>
+        <order>2</order>
+        <short_description>Approval request was rejected</short_description>
+        <skip_during_generate>true</skip_during_generate>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>19ab0cccdbe5c7407d28fafc0f961933</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Approval Action">50a78fa50a6a803f66d064255f7201a5</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>8</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Job description approved</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage display_value="Approval">89abc8ccdbe5c7407d28fafc0f961947</stage>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>c9ab0cccdbe5c7407d28fafc0f96192a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="MHP HR Job Description">89abc8ccdbe5c7407d28fafc0f961945</workflow_version>
+        <x>347</x>
+        <y>106</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=c9ab0cccdbe5c7407d28fafc0f96192a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c9ab0cccdbe5c7407d28fafc0f96192a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>41ab0cccdbe5c7407d28fafc0f96192b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <value>approved</value>
+        <variable display_value="">50ab35f70a6a803f76d36e1ebaf3639e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c9ab0cccdbe5c7407d28fafc0f96192a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>41ab0cccdbe5c7407d28fafc0f96192b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <value>approved</value>
+        <variable display_value="">50ab35f70a6a803f76d36e1ebaf3639e</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Job description approved">c9ab0cccdbe5c7407d28fafc0f96192a</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>09ab0cccdbe5c7407d28fafc0f96192b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Set Values">1ca8d7cf0a0a0b265e9a000c2c08248c</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>12</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Set stage to completed</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage display_value="Completed">0dabc8ccdbe5c7407d28fafc0f961947</stage>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>d5ab0cccdbe5c7407d28fafc0f961936</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="MHP HR Job Description">89abc8ccdbe5c7407d28fafc0f961945</workflow_version>
+        <x>590</x>
+        <y>3</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=d5ab0cccdbe5c7407d28fafc0f961936"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5ab0cccdbe5c7407d28fafc0f961936</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>59ab0cccdbe5c7407d28fafc0f961936</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <value>u_stage=completed^u_job_description_approved=true^EQ</value>
+        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5ab0cccdbe5c7407d28fafc0f961936</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>59ab0cccdbe5c7407d28fafc0f961936</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <value>u_stage=completed^u_job_description_approved=true^EQ</value>
+        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Set stage to completed">d5ab0cccdbe5c7407d28fafc0f961936</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>9dab0cccdbe5c7407d28fafc0f961936</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Set Values">1ca8d7cf0a0a0b265e9a000c2c08248c</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>11</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Set value when Job Description is rejected</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>d1ab0cccdbe5c7407d28fafc0f961935</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="MHP HR Job Description">89abc8ccdbe5c7407d28fafc0f961945</workflow_version>
+        <x>28</x>
+        <y>298</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=d1ab0cccdbe5c7407d28fafc0f961935"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d1ab0cccdbe5c7407d28fafc0f961935</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>59ab0cccdbe5c7407d28fafc0f961935</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <value>u_stage=in_progress^u_job_description_approved=false^EQ</value>
+        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d1ab0cccdbe5c7407d28fafc0f961935</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>59ab0cccdbe5c7407d28fafc0f961935</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <value>u_stage=in_progress^u_job_description_approved=false^EQ</value>
+        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Set value when Job Description is rejected">d1ab0cccdbe5c7407d28fafc0f961935</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>11ab0cccdbe5c7407d28fafc0f961936</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Wait for condition">d93a02ae0a0a0aa30077abad3fdac035</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>3</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Waiting for submission</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage display_value="In progress">c5abc8ccdbe5c7407d28fafc0f961947</stage>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>11ab0cccdbe5c7407d28fafc0f96192d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="MHP HR Job Description">89abc8ccdbe5c7407d28fafc0f961945</workflow_version>
+        <x>40</x>
+        <y>90</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=11ab0cccdbe5c7407d28fafc0f96192d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>11ab0cccdbe5c7407d28fafc0f96192d</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>59ab0cccdbe5c7407d28fafc0f96192d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <value>u_stage=approval^EQ</value>
+        <variable display_value="">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>11ab0cccdbe5c7407d28fafc0f96192d</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>95ab0cccdbe5c7407d28fafc0f96192d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <value>// Set the variable 'answer' to true or false to indicate if the condition has been met or not.&#13;
+answer = true;&#13;
+</value>
+        <variable display_value="">c35debce0a0a0ba96248a709440cf31a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>11ab0cccdbe5c7407d28fafc0f96192d</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>59ab0cccdbe5c7407d28fafc0f96192d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <value>u_stage=approval^EQ</value>
+        <variable display_value="">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>11ab0cccdbe5c7407d28fafc0f96192d</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>95ab0cccdbe5c7407d28fafc0f96192d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <value>// Set the variable 'answer' to true or false to indicate if the condition has been met or not.&#13;
+answer = true;&#13;
+</value>
+        <variable display_value="">c35debce0a0a0ba96248a709440cf31a</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Waiting for submission">11ab0cccdbe5c7407d28fafc0f96192d</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>11ab0cccdbe5c7407d28fafc0f96192e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+    </wf_condition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">11ab0cccdbe5c7407d28fafc0f96192e</condition>
+        <from display_value="Waiting for submission">11ab0cccdbe5c7407d28fafc0f96192d</from>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>11ab0cccdbe5c7407d28fafc0f96193a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <to display_value="HR manager approvals">d5ab0cccdbe5c7407d28fafc0f96192e</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Rejected">19ab0cccdbe5c7407d28fafc0f961933</condition>
+        <from display_value="HR manager approvals">d5ab0cccdbe5c7407d28fafc0f96192e</from>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>15ab0cccdbe5c7407d28fafc0f961939</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <to display_value="Set value when Job Description is rejected">d1ab0cccdbe5c7407d28fafc0f961935</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">1dab0cccdbe5c7407d28fafc0f961934</condition>
+        <from display_value="Create rejection email">ddab0cccdbe5c7407d28fafc0f961933</from>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>19ab0cccdbe5c7407d28fafc0f961939</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <to display_value="Waiting for submission">11ab0cccdbe5c7407d28fafc0f96192d</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">19ab0cccdbe5c7407d28fafc0f96192c</condition>
+        <from display_value="Begin">8dab0cccdbe5c7407d28fafc0f96192b</from>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>1dab0cccdbe5c7407d28fafc0f961939</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <to display_value="Waiting for submission">11ab0cccdbe5c7407d28fafc0f96192d</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">9dab0cccdbe5c7407d28fafc0f961936</condition>
+        <from display_value="Set stage to completed">d5ab0cccdbe5c7407d28fafc0f961936</from>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>55ab0cccdbe5c7407d28fafc0f96193a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <to display_value="End">15ab0cccdbe5c7407d28fafc0f961937</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">11ab0cccdbe5c7407d28fafc0f961936</condition>
+        <from display_value="Set value when Job Description is rejected">d1ab0cccdbe5c7407d28fafc0f961935</from>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>59ab0cccdbe5c7407d28fafc0f96193a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <to display_value="Create rejection email">ddab0cccdbe5c7407d28fafc0f961933</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">01ab0cccdbe5c7407d28fafc0f96192a</condition>
+        <from display_value="Create approval email">45abc8ccdbe5c7407d28fafc0f961948</from>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>5dab0cccdbe5c7407d28fafc0f961938</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <to display_value="Set stage to completed">d5ab0cccdbe5c7407d28fafc0f961936</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">09ab0cccdbe5c7407d28fafc0f96192b</condition>
+        <from display_value="Job description approved">c9ab0cccdbe5c7407d28fafc0f96192a</from>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>5dab0cccdbe5c7407d28fafc0f96193a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <to display_value="Create approval email">45abc8ccdbe5c7407d28fafc0f961948</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Approved">95ab0cccdbe5c7407d28fafc0f961933</condition>
+        <from display_value="HR manager approvals">d5ab0cccdbe5c7407d28fafc0f96192e</from>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>91ab0cccdbe5c7407d28fafc0f961939</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <to display_value="Job description approved">c9ab0cccdbe5c7407d28fafc0f96192a</to>
+    </wf_transition>
+    <wf_estimated_runtime_config action="INSERT_OR_UPDATE">
+        <estimated_run_time/>
+        <no_of_data_points>1</no_of_data_points>
+        <percentage_threshold_ert>20</percentage_threshold_ert>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-09-26 16:38:54</sys_created_on>
+        <sys_id>8dabc8ccdbe5c7407d28fafc0f961945</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
+        <workflow_version display_value="MHP HR Job Description">89abc8ccdbe5c7407d28fafc0f961945</workflow_version>
+    </wf_estimated_runtime_config>
+    <wf_workflow_version action="update_multiple" query="workflow=84ee975edbac8300bc1cf2f9af9619cc^sys_id!=89abc8ccdbe5c7407d28fafc0f961945">
+        <published>false</published>
+    </wf_workflow_version>
+</record_update>

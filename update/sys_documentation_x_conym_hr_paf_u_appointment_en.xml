@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_appointment" label="Appointment" language="en" table="x_conym_hr_paf">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_appointment</element>
+            <help/>
+            <hint/>
+            <label>Appointment</label>
+            <language>en</language>
+            <name>x_conym_hr_paf</name>
+            <plural>Appointments</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>heinleia@metroplus.org</sys_created_by>
+            <sys_created_on>2017-10-10 14:54:45</sys_created_on>
+            <sys_id>181a3f94db7dcb006f3cfbb9af961941</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Appointment</sys_name>
+            <sys_package display_value="Human Resources Department" source="x_conym_hr">28d216dedb40c740bc1cf2f9af9619f9</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Human Resources Department">28d216dedb40c740bc1cf2f9af9619f9</sys_scope>
+            <sys_update_name>sys_documentation_x_conym_hr_paf_u_appointment_en</sys_update_name>
+            <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+            <sys_updated_on>2017-10-10 14:54:45</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
