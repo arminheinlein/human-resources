@@ -23,14 +23,14 @@
         <sys_created_by>HEINLEIA@METROPLUS.ORG</sys_created_by>
         <sys_created_on>2017-07-21 12:41:38</sys_created_on>
         <sys_id>28d216dedb40c740bc1cf2f9af9619f9</sys_id>
-        <sys_mod_count>50</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-10-13 02:17:07</sys_updated_on>
+        <sys_mod_count>51</sys_mod_count>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-10-16 13:50:43</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <user_role/>
         <vendor/>
         <vendor_prefix/>
-        <version>0.4.0</version>
+        <version>0.4.1</version>
     </sys_app>
 </record_update>

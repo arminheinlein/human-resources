@@ -24,7 +24,7 @@
                 <element label="Temporary" sequence="2" value="temporary"/>
             </choice>
         </element>
-        <element choice="1" label="Salary is " max_length="40" name="u_salary_is" type="choice">
+        <element choice="1" label="Salary is" max_length="40" name="u_salary_is" type="choice">
             <choice>
                 <element label="Per Hour" sequence="1" value="per_hour"/>
                 <element label="Per Diem" sequence="2" value="per_diem"/>

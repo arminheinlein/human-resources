@@ -2,7 +2,7 @@
 <record_update table="sys_index">
     <sys_index action="INSERT_OR_UPDATE">
         <col_name_string>u_peoplesoft_reference</col_name_string>
-        <index_col_name element="u_peoplesoft_reference" name="x_conym_hr_position">8181e6e40f5003003ed88b9ae1050e85</index_col_name>
+        <index_col_name>8181e6e40f5003003ed88b9ae1050e85</index_col_name>
         <logical_table_name>x_conym_hr_position</logical_table_name>
         <sys_class_name>sys_index</sys_class_name>
         <sys_created_by>admin</sys_created_by>

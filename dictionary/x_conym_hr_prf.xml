@@ -10,7 +10,7 @@
             </choice>
         </element>
         <element label="Budget available" max_length="40" name="u_budget_available" type="boolean"/>
-        <element label="Hours per week " max_length="3" name="u_hours_per_week" type="integer"/>
+        <element label="Hours per week" max_length="3" name="u_hours_per_week" type="integer"/>
         <element label="PeopleSoft Job ID" max_length="10" name="u_peoplesoft_job_id" type="integer"/>
         <element choice="1" label="Position is" max_length="40" name="u_position_is" type="choice">
             <choice>
