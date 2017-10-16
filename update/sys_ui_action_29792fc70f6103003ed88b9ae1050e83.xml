@@ -4,8 +4,8 @@
         <action_name>submit_paf_approval</action_name>
         <active>true</active>
         <client>false</client>
-        <comments/>
-        <condition>current.u_stage!='new'&amp;&amp;current.u_stage!='request'</condition>
+        <comments>&gt;&gt;</comments>
+        <condition>current.u_state=='1'&amp;&amp;current.u_stage=='review'</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
         <form_context_menu>false</form_context_menu>
@@ -34,20 +34,18 @@ current.update();]]></script>
         <sys_class_name>sys_ui_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-10-06 16:32:37</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>29792fc70f6103003ed88b9ae1050e83</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>Submit PAF for HR Approval</sys_name>
         <sys_overrides/>
         <sys_package display_value="Human Resources Department" source="x_conym_hr">28d216dedb40c740bc1cf2f9af9619f9</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Human Resources Department">28d216dedb40c740bc1cf2f9af9619f9</sys_scope>
         <sys_update_name>sys_ui_action_29792fc70f6103003ed88b9ae1050e83</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-10-09 13:18:52</sys_updated_on>
+        <sys_updated_on>2017-10-16 13:31:19</sys_updated_on>
         <table>x_conym_hr_paf</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

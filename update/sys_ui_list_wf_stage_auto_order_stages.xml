@@ -1,81 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
     <sys_ui_list parent="" relationship="" sys_domain="global" table="wf_stage" version="2" view="auto_order_stages">
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>name</element>
-            <list_id display_value="wf_stage" element="NULL" name="wf_stage" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9f1b4aebdba3e2006f3cfbb9af96192d</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>0</position>
-            <sum>false</sum>
-            <sys_created_by>admin_mp</sys_created_by>
-            <sys_created_on>2016-12-13 16:37:50</sys_created_on>
-            <sys_id>931b4aebdba3e2006f3cfbb9af96192e</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin_mp</sys_updated_by>
-            <sys_updated_on>2016-12-13 16:37:50</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>ola</element>
-            <list_id display_value="wf_stage" element="NULL" name="wf_stage" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9f1b4aebdba3e2006f3cfbb9af96192d</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>1</position>
-            <sum>false</sum>
-            <sys_created_by>admin_mp</sys_created_by>
-            <sys_created_on>2016-12-13 16:37:50</sys_created_on>
-            <sys_id>171b4aebdba3e2006f3cfbb9af96192e</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin_mp</sys_updated_by>
-            <sys_updated_on>2016-12-13 16:37:50</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>order</element>
-            <list_id display_value="wf_stage" element="NULL" name="wf_stage" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9f1b4aebdba3e2006f3cfbb9af96192d</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>2</position>
-            <sum>false</sum>
-            <sys_created_by>admin_mp</sys_created_by>
-            <sys_created_on>2016-12-13 16:37:50</sys_created_on>
-            <sys_id>971b4aebdba3e2006f3cfbb9af96192e</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin_mp</sys_updated_by>
-            <sys_updated_on>2016-12-13 16:37:50</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>value</element>
-            <list_id display_value="wf_stage" element="NULL" name="wf_stage" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9f1b4aebdba3e2006f3cfbb9af96192d</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>3</position>
-            <sum>false</sum>
-            <sys_created_by>admin_mp</sys_created_by>
-            <sys_created_on>2016-12-13 16:37:50</sys_created_on>
-            <sys_id>1b1b4aebdba3e2006f3cfbb9af96192e</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin_mp</sys_updated_by>
-            <sys_updated_on>2016-12-13 16:37:50</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>workflow_version</element>
-            <list_id display_value="wf_stage" element="NULL" name="wf_stage" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9f1b4aebdba3e2006f3cfbb9af96192d</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>4</position>
-            <sum>false</sum>
-            <sys_created_by>admin_mp</sys_created_by>
-            <sys_created_on>2016-12-13 16:37:50</sys_created_on>
-            <sys_id>9b1b4aebdba3e2006f3cfbb9af96192e</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin_mp</sys_updated_by>
-            <sys_updated_on>2016-12-13 16:37:50</sys_updated_on>
-        </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element/>
@@ -89,7 +14,6 @@
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>heinleia@metroplus.org</sys_created_by>
             <sys_created_on>2017-08-15 16:10:54</sys_created_on>
-            <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>2d72335adbec8300bc1cf2f9af9619f2</sys_id>
@@ -97,7 +21,6 @@
             <sys_name>wf_stage</sys_name>
             <sys_package display_value="Human Resources Department" source="x_conym_hr">28d216dedb40c740bc1cf2f9af9619f9</sys_package>
             <sys_policy/>
-            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Human Resources Department">28d216dedb40c740bc1cf2f9af9619f9</sys_scope>
             <sys_update_name>sys_ui_list_wf_stage_auto_order_stages</sys_update_name>
             <sys_updated_by>heinleia@metroplus.org</sys_updated_by>

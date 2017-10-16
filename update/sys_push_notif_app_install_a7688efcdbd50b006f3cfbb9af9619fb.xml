@@ -6,7 +6,6 @@
         <sys_class_name>sys_push_notif_app_install</sys_class_name>
         <sys_created_by>heinleia@metroplus.org</sys_created_by>
         <sys_created_on>2017-09-16 23:23:50</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>a7688efcdbd50b006f3cfbb9af9619fb</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name>8b6bee172f559bc4ef7f1fa8e6740f9c003d1e3893aefbf5f64caab6f17c066f</sys_name>
@@ -14,7 +13,6 @@
         <sys_policy/>
         <sys_push_application_id display_value="ServiceNow Mobile Application">ab704041ff1102009738ffffffffff33</sys_push_application_id>
         <sys_push_platform_id display_value="Apple">20e71f30ff0002009738ffffffffff6b</sys_push_platform_id>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Human Resources Department">28d216dedb40c740bc1cf2f9af9619f9</sys_scope>
         <sys_update_name>sys_push_notif_app_install_a7688efcdbd50b006f3cfbb9af9619fb</sys_update_name>
         <sys_updated_by>heinleia@metroplus.org</sys_updated_by>

@@ -5,7 +5,7 @@
         <address_list/>
         <condition/>
         <conditional>false</conditional>
-        <group_list>b91d4391db1d4b006f3cfbb9af96196e</group_list>
+        <group_list name="HR PRF/PAF generalist">b91d4391db1d4b006f3cfbb9af96196e</group_list>
         <include_detail>false</include_detail>
         <include_with/>
         <name>Scheduled execution of Position that require attention</name>
@@ -17,7 +17,7 @@
         <report display_value="Positions that require attention">cb847a3c0fe003003ed88b9ae1050e7b</report>
         <report_body/>
         <report_title>Positions that require attention </report_title>
-        <run_as display_value="admin Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as display_value="">6816f79cc0a8016401c5a33be04be441</run_as>
         <run_as_tz/>
         <run_dayofmonth>1</run_dayofmonth>
         <run_dayofweek>1</run_dayofweek>
@@ -28,13 +28,11 @@
         <sys_class_name>sysauto_report</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-08-10 19:51:10</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>df84727c0fe003003ed88b9ae1050e06</sys_id>
         <sys_mod_count>7</sys_mod_count>
         <sys_name>Scheduled execution of Position that require attention</sys_name>
         <sys_package display_value="Human Resources Department" source="x_conym_hr">28d216dedb40c740bc1cf2f9af9619f9</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Human Resources Department">28d216dedb40c740bc1cf2f9af9619f9</sys_scope>
         <sys_update_name>sysauto_report_df84727c0fe003003ed88b9ae1050e06</sys_update_name>
         <sys_updated_by>heinleia@metroplus.org</sys_updated_by>

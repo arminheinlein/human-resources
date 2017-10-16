@@ -67,13 +67,11 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>heinleia@metroplus.org</sys_created_by>
             <sys_created_on>2017-08-15 14:57:57</sys_created_on>
-            <sys_customer_update>false</sys_customer_update>
-            <sys_id>ea1d12d2db754f007d28fafc0f961971</sys_id>
+            <sys_id>cf1a6a160fb503003ed88b9ae1050e80</sys_id>
             <sys_mod_count>7</sys_mod_count>
             <sys_name>u_stage</sys_name>
             <sys_package display_value="Human Resources Department" source="x_conym_hr">28d216dedb40c740bc1cf2f9af9619f9</sys_package>
             <sys_policy/>
-            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Human Resources Department">28d216dedb40c740bc1cf2f9af9619f9</sys_scope>
             <sys_update_name>sys_choice_x_conym_hr_jd_u_stage</sys_update_name>
             <sys_updated_by>heinleia@metroplus.org</sys_updated_by>

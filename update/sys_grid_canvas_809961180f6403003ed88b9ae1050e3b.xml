@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<record_update node_type="sys_grid_canvas" unload_date="2017-10-16 13:51:16">
+<record_update node_type="sys_grid_canvas" unload_date="2017-10-16 14:20:15">
     <sys_grid_canvas action="INSERT_OR_UPDATE">
         <legacy_page display_value="PA Incident Overview">815b3831d7201100b96d45a3ce6103c2</legacy_page>
         <name>PA Incident Overview</name>
         <sys_class_name>sys_grid_canvas</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-08-09 01:04:56</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>809961180f6403003ed88b9ae1050e3b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>PA Incident Overview</sys_name>
         <sys_package display_value="Human Resources Department" source="x_conym_hr">28d216dedb40c740bc1cf2f9af9619f9</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Human Resources Department">28d216dedb40c740bc1cf2f9af9619f9</sys_scope>
         <sys_update_name>sys_grid_canvas_809961180f6403003ed88b9ae1050e3b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
@@ -27,13 +25,11 @@
                 <sys_class_name>sys_grid_canvas_pane</sys_class_name>
                 <sys_created_by>admin</sys_created_by>
                 <sys_created_on>2017-08-09 01:04:56</sys_created_on>
-                <sys_customer_update>false</sys_customer_update>
                 <sys_id>089961180f6403003ed88b9ae1050e3d</sys_id>
                 <sys_mod_count>0</sys_mod_count>
                 <sys_name>809961180f6403003ed88b9ae1050e3b</sys_name>
                 <sys_package display_value="Human Resources Department" source="x_conym_hr">28d216dedb40c740bc1cf2f9af9619f9</sys_package>
                 <sys_policy/>
-                <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
                 <sys_scope display_value="Human Resources Department">28d216dedb40c740bc1cf2f9af9619f9</sys_scope>
                 <sys_update_name>sys_grid_canvas_pane_089961180f6403003ed88b9ae1050e3d</sys_update_name>
                 <sys_updated_by>admin</sys_updated_by>
@@ -61,13 +57,11 @@
                                 <sys_class_name>sys_grid_canvas_pane</sys_class_name>
                                 <sys_created_by>admin</sys_created_by>
                                 <sys_created_on>2017-08-09 01:04:56</sys_created_on>
-                                <sys_customer_update>false</sys_customer_update>
                                 <sys_id>089961180f6403003ed88b9ae1050e3d</sys_id>
                                 <sys_mod_count>0</sys_mod_count>
                                 <sys_name>809961180f6403003ed88b9ae1050e3b</sys_name>
                                 <sys_package display_value="Human Resources Department" source="x_conym_hr">28d216dedb40c740bc1cf2f9af9619f9</sys_package>
                                 <sys_policy/>
-                                <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
                                 <sys_scope display_value="Human Resources Department">28d216dedb40c740bc1cf2f9af9619f9</sys_scope>
                                 <sys_update_name>sys_grid_canvas_pane_089961180f6403003ed88b9ae1050e3d</sys_update_name>
                                 <sys_updated_by>admin</sys_updated_by>
@@ -167,13 +161,11 @@
                                 <sys_class_name>sys_grid_canvas_pane</sys_class_name>
                                 <sys_created_by>admin</sys_created_by>
                                 <sys_created_on>2017-08-09 01:04:56</sys_created_on>
-                                <sys_customer_update>false</sys_customer_update>
                                 <sys_id>0c9961180f6403003ed88b9ae1050e42</sys_id>
                                 <sys_mod_count>0</sys_mod_count>
                                 <sys_name>809961180f6403003ed88b9ae1050e3b</sys_name>
                                 <sys_package display_value="Human Resources Department" source="x_conym_hr">28d216dedb40c740bc1cf2f9af9619f9</sys_package>
                                 <sys_policy/>
-                                <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
                                 <sys_scope display_value="Human Resources Department">28d216dedb40c740bc1cf2f9af9619f9</sys_scope>
                                 <sys_update_name>sys_grid_canvas_pane_0c9961180f6403003ed88b9ae1050e42</sys_update_name>
                                 <sys_updated_by>admin</sys_updated_by>
@@ -273,13 +265,11 @@
                                 <sys_class_name>sys_grid_canvas_pane</sys_class_name>
                                 <sys_created_by>admin</sys_created_by>
                                 <sys_created_on>2017-08-09 01:04:56</sys_created_on>
-                                <sys_customer_update>false</sys_customer_update>
                                 <sys_id>889961180f6403003ed88b9ae1050e3f</sys_id>
                                 <sys_mod_count>0</sys_mod_count>
                                 <sys_name>809961180f6403003ed88b9ae1050e3b</sys_name>
                                 <sys_package display_value="Human Resources Department" source="x_conym_hr">28d216dedb40c740bc1cf2f9af9619f9</sys_package>
                                 <sys_policy/>
-                                <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
                                 <sys_scope display_value="Human Resources Department">28d216dedb40c740bc1cf2f9af9619f9</sys_scope>
                                 <sys_update_name>sys_grid_canvas_pane_889961180f6403003ed88b9ae1050e3f</sys_update_name>
                                 <sys_updated_by>admin</sys_updated_by>
@@ -379,13 +369,11 @@
                                 <sys_class_name>sys_grid_canvas_pane</sys_class_name>
                                 <sys_created_by>admin</sys_created_by>
                                 <sys_created_on>2017-08-09 01:04:56</sys_created_on>
-                                <sys_customer_update>false</sys_customer_update>
                                 <sys_id>c09961180f6403003ed88b9ae1050e41</sys_id>
                                 <sys_mod_count>0</sys_mod_count>
                                 <sys_name>809961180f6403003ed88b9ae1050e3b</sys_name>
                                 <sys_package display_value="Human Resources Department" source="x_conym_hr">28d216dedb40c740bc1cf2f9af9619f9</sys_package>
                                 <sys_policy/>
-                                <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
                                 <sys_scope display_value="Human Resources Department">28d216dedb40c740bc1cf2f9af9619f9</sys_scope>
                                 <sys_update_name>sys_grid_canvas_pane_c09961180f6403003ed88b9ae1050e41</sys_update_name>
                                 <sys_updated_by>admin</sys_updated_by>
@@ -473,13 +461,11 @@
                 <sys_class_name>sys_grid_canvas_pane</sys_class_name>
                 <sys_created_by>admin</sys_created_by>
                 <sys_created_on>2017-08-09 01:04:56</sys_created_on>
-                <sys_customer_update>false</sys_customer_update>
                 <sys_id>0c9961180f6403003ed88b9ae1050e42</sys_id>
                 <sys_mod_count>0</sys_mod_count>
                 <sys_name>809961180f6403003ed88b9ae1050e3b</sys_name>
                 <sys_package display_value="Human Resources Department" source="x_conym_hr">28d216dedb40c740bc1cf2f9af9619f9</sys_package>
                 <sys_policy/>
-                <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
                 <sys_scope display_value="Human Resources Department">28d216dedb40c740bc1cf2f9af9619f9</sys_scope>
                 <sys_update_name>sys_grid_canvas_pane_0c9961180f6403003ed88b9ae1050e42</sys_update_name>
                 <sys_updated_by>admin</sys_updated_by>
@@ -495,13 +481,11 @@
                 <sys_class_name>sys_grid_canvas_pane</sys_class_name>
                 <sys_created_by>admin</sys_created_by>
                 <sys_created_on>2017-08-09 01:04:56</sys_created_on>
-                <sys_customer_update>false</sys_customer_update>
                 <sys_id>889961180f6403003ed88b9ae1050e3f</sys_id>
                 <sys_mod_count>0</sys_mod_count>
                 <sys_name>809961180f6403003ed88b9ae1050e3b</sys_name>
                 <sys_package display_value="Human Resources Department" source="x_conym_hr">28d216dedb40c740bc1cf2f9af9619f9</sys_package>
                 <sys_policy/>
-                <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
                 <sys_scope display_value="Human Resources Department">28d216dedb40c740bc1cf2f9af9619f9</sys_scope>
                 <sys_update_name>sys_grid_canvas_pane_889961180f6403003ed88b9ae1050e3f</sys_update_name>
                 <sys_updated_by>admin</sys_updated_by>
@@ -517,13 +501,11 @@
                 <sys_class_name>sys_grid_canvas_pane</sys_class_name>
                 <sys_created_by>admin</sys_created_by>
                 <sys_created_on>2017-08-09 01:04:56</sys_created_on>
-                <sys_customer_update>false</sys_customer_update>
                 <sys_id>c09961180f6403003ed88b9ae1050e41</sys_id>
                 <sys_mod_count>0</sys_mod_count>
                 <sys_name>809961180f6403003ed88b9ae1050e3b</sys_name>
                 <sys_package display_value="Human Resources Department" source="x_conym_hr">28d216dedb40c740bc1cf2f9af9619f9</sys_package>
                 <sys_policy/>
-                <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
                 <sys_scope display_value="Human Resources Department">28d216dedb40c740bc1cf2f9af9619f9</sys_scope>
                 <sys_update_name>sys_grid_canvas_pane_c09961180f6403003ed88b9ae1050e41</sys_update_name>
                 <sys_updated_by>admin</sys_updated_by>

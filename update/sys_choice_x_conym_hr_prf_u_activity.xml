@@ -87,13 +87,11 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin_mp</sys_created_by>
             <sys_created_on>2017-10-10 18:15:00</sys_created_on>
-            <sys_customer_update>false</sys_customer_update>
-            <sys_id>4f1d12d2db754f007d28fafc0f9619ea</sys_id>
+            <sys_id>1f1aaa160fb503003ed88b9ae1050e9b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>u_activity</sys_name>
             <sys_package display_value="Human Resources Department" source="x_conym_hr">28d216dedb40c740bc1cf2f9af9619f9</sys_package>
             <sys_policy/>
-            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Human Resources Department">28d216dedb40c740bc1cf2f9af9619f9</sys_scope>
             <sys_update_name>sys_choice_x_conym_hr_prf_u_activity</sys_update_name>
             <sys_updated_by>admin_mp</sys_updated_by>
