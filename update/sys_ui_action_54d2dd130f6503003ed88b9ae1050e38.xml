@@ -35,6 +35,7 @@ current.update();
         <sys_class_name>sys_ui_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-10-07 00:11:34</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>54d2dd130f6503003ed88b9ae1050e38</sys_id>
@@ -43,6 +44,7 @@ current.update();
         <sys_overrides/>
         <sys_package display_value="Human Resources Department" source="x_conym_hr">28d216dedb40c740bc1cf2f9af9619f9</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Human Resources Department">28d216dedb40c740bc1cf2f9af9619f9</sys_scope>
         <sys_update_name>sys_ui_action_54d2dd130f6503003ed88b9ae1050e38</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>

@@ -12,6 +12,7 @@
         <sys_class_name>sys_filter</sys_class_name>
         <sys_created_by>Test1</sys_created_by>
         <sys_created_on>2017-08-14 19:25:33</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>07655782db20c3006f3cfbb9af961989</sys_id>
@@ -19,12 +20,13 @@
         <sys_name>mobile</sys_name>
         <sys_package display_value="Human Resources Department" source="x_conym_hr">28d216dedb40c740bc1cf2f9af9619f9</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Human Resources Department">28d216dedb40c740bc1cf2f9af9619f9</sys_scope>
         <sys_update_name>sys_filter_07655782db20c3006f3cfbb9af961989</sys_update_name>
         <sys_updated_by>Test1</sys_updated_by>
         <sys_updated_on>2017-08-14 19:25:33</sys_updated_on>
         <table>sys_user</table>
         <title>mobile</title>
-        <user display_value="Hiring  Manager 1">8621d302db20c3006f3cfbb9af961977</user>
+        <user display_value="">8621d302db20c3006f3cfbb9af961977</user>
     </sys_filter>
 </record_update>

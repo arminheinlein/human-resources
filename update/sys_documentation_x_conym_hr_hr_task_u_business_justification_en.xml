@@ -12,11 +12,13 @@
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2017-10-05 16:25:19</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
             <sys_id>46de92760fe903003ed88b9ae1050e7e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Business justification</sys_name>
             <sys_package display_value="Human Resources Department" source="x_conym_hr">28d216dedb40c740bc1cf2f9af9619f9</sys_package>
             <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Human Resources Department">28d216dedb40c740bc1cf2f9af9619f9</sys_scope>
             <sys_update_name>sys_documentation_x_conym_hr_hr_task_u_business_justification_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>

@@ -4,8 +4,7 @@
         <action_insert>false</action_insert>
         <action_update>false</action_update>
         <active>true</active>
-        <advanced_condition><![CDATA[//
-//]]></advanced_condition>
+        <advanced_condition/>
         <affected_field_on_event/>
         <category display_value="Human Resources">b69d02137f232200ee2e108c3ffa913c</category>
         <collection>x_conym_hr_prf</collection>
@@ -57,18 +56,20 @@
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-08-10 13:46:32</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>186129fc0f2003003ed88b9ae1050edf</sys_id>
-        <sys_mod_count>24</sys_mod_count>
+        <sys_mod_count>23</sys_mod_count>
         <sys_name>prf_approval</sys_name>
         <sys_overrides/>
         <sys_package display_value="Human Resources Department" source="x_conym_hr">28d216dedb40c740bc1cf2f9af9619f9</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Human Resources Department">28d216dedb40c740bc1cf2f9af9619f9</sys_scope>
         <sys_update_name>sysevent_email_action_186129fc0f2003003ed88b9ae1050edf</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-10-15 17:50:07</sys_updated_on>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-09-21 12:43:13</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>

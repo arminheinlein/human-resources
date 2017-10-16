@@ -18,6 +18,7 @@
             <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
             <sys_updated_on>2017-08-15 15:02:46</sys_updated_on>
+            <u_assignment_group/>
             <value>in_progress</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -37,6 +38,7 @@
             <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
             <sys_updated_on>2017-08-15 15:03:07</sys_updated_on>
+            <u_assignment_group/>
             <value>approval</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -56,6 +58,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
             <sys_updated_on>2017-08-21 14:30:20</sys_updated_on>
+            <u_assignment_group/>
             <value>completed</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
@@ -64,11 +67,13 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>heinleia@metroplus.org</sys_created_by>
             <sys_created_on>2017-08-15 14:57:57</sys_created_on>
-            <sys_id>fe4560110f7103003ed88b9ae1050e88</sys_id>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>0e834b55db79cf00175273921f9619b1</sys_id>
             <sys_mod_count>7</sys_mod_count>
             <sys_name>u_stage</sys_name>
             <sys_package display_value="Human Resources Department" source="x_conym_hr">28d216dedb40c740bc1cf2f9af9619f9</sys_package>
             <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Human Resources Department">28d216dedb40c740bc1cf2f9af9619f9</sys_scope>
             <sys_update_name>sys_choice_x_conym_hr_jd_u_stage</sys_update_name>
             <sys_updated_by>heinleia@metroplus.org</sys_updated_by>

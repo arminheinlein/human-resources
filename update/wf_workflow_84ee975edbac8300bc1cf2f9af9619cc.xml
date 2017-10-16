@@ -48,6 +48,7 @@
         <sys_class_name>wf_workflow</sys_class_name>
         <sys_created_by>heinleia@metroplus.org</sys_created_by>
         <sys_created_on>2017-08-15 14:45:20</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>84ee975edbac8300bc1cf2f9af9619cc</sys_id>
@@ -56,6 +57,7 @@
         <sys_overrides/>
         <sys_package display_value="Human Resources Department" source="x_conym_hr">28d216dedb40c740bc1cf2f9af9619f9</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Human Resources Department">28d216dedb40c740bc1cf2f9af9619f9</sys_scope>
         <sys_update_name>wf_workflow_84ee975edbac8300bc1cf2f9af9619cc</sys_update_name>
         <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
@@ -1002,12 +1004,12 @@ answer = 0;</value>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>heinleia@metroplus.org</sys_created_by>
         <sys_created_on>2017-09-26 16:38:54</sys_created_on>
-        <sys_id>5dab0cccdbe5c7407d28fafc0f961931</sys_id>
+        <sys_id>95ab0cccdbe5c7407d28fafc0f961932</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
         <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
-        <value>08fcd0830a0a0b2600079f56b1adb9ae</value>
-        <variable display_value="">a7754e91c0a800664938d0ef6d2664d7</variable>
+        <value/>
+        <variable display_value="">a774138dc0a80066000be7af20961c7d</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1016,12 +1018,12 @@ answer = 0;</value>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>heinleia@metroplus.org</sys_created_by>
         <sys_created_on>2017-09-26 16:38:54</sys_created_on>
-        <sys_id>95ab0cccdbe5c7407d28fafc0f961932</sys_id>
+        <sys_id>5dab0cccdbe5c7407d28fafc0f961931</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
         <sys_updated_on>2017-09-26 16:38:54</sys_updated_on>
-        <value/>
-        <variable display_value="">a774138dc0a80066000be7af20961c7d</variable>
+        <value>08fcd0830a0a0b2600079f56b1adb9ae</value>
+        <variable display_value="">a7754e91c0a800664938d0ef6d2664d7</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
